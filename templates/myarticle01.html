@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!-- 代码高亮中不能太长 否则对不齐 是因为kg-card-markdown的flex布局
+       screen.css的669行
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>article01</title>
+    <script src="../static/js/jquery-3.2.1.min.js"></script>
+    <link href="../static/css/screen.css" rel="stylesheet" type="text/css">
+    <script src="../static/js/dist/syntaxhighlighter.js"></script>
+    <link href="../static/js/dist/theme.css" rel="stylesheet" type="text/css">
+</head>
+
+
+
+<body class="post-template">
+<div class="site-wrapper">
+    <header class="site-header outer">
+        <div class="inner">
+            <nav class="site-nav">
+                <div class="site-nav-left">
+                    <a class="site-nav-logo" href="homepage.html">
+                        <img src="../static/image/logo.jpg">
+                    </a>
+                    <ul class="nav">
+                        <li><a href="../template/homepage.html">首页</a></li>
+                        <li><a href="all post">文章分类</a></li>
+                        <li><a href="#">None</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+    <main class="site-main outer">
+        <div class="inner">
+            <article class="post-full">
+                <header class="post-full-header">
+                    <section class="post-full-meta">
+                        <time class="post-full-meta-date">2017年1月7日</time>
+                    </section>
+                    <h1 class="post-full-title">单向链表实现队列 </h1>
+                </header>
+                <figure class="post-full-image" style="background-image: url('../static/image/content.jpg')"> </figure>
+                <section class="post-full-content">
+                    <div class="kg-card-markdown">
+                        <p>队列（Queue）与栈一样，是一种线性存储结构。队列中的数据元素遵循“先进先出”（FIFO）的原则。</p>
+                        <p>对头和对尾：允许插入元素的一端称为队尾，允许删除元素的一段称为队首。</p>
+
+                        <p>用C++11特性，实现了基于单链表的队列。先定义一个链表节点。其中item存了节点的内容，next是一个指针，指向下一个节点。</p>
+                        <p>Node节点有两个构造函数，第一个带参数的构造函数是用于构造队列中的节点，第二个构造函数是用于构造队首和队尾的节点指针。简单来说，通过带参数的构造函数创建的节点是存实际内容（既有item，也有next），而通过不带参数的构造函数创造的节点是没有内容的（没有item，只有next）。</p>
+                        <p><img src="../static/image/Node节点.png"></p>
+
+                        <pre class="brush:cpp">
+template&lttypename T>
+struct Node{
+     Node(T t) :item(t), next(nullptr) {};//带内容的节点
+     Node() :next(nullptr) {};//不带内容的节点，用于构造队首和队尾指针
+public:
+     T item;//节点内容
+     std::shared_ptr&ltNode&ltT>> next;//节点指针
+};
+                            </pre>
+
+                        <p>然后定义一个队列类，有如下几个成员函数：</p>
+                        <pre class="brush:cpp">
+template&lttypename T>
+class MyQueue{
+    public:
+    MyQueue();//构造函数
+    ~MyQueue() = default;//默认析构函数
+    void enqueue(T t);//入队
+    bool isEmpty();//判断是否为空
+    std::size_t size();//返回队列元素个数
+    T front();//返回队首元素
+    T back();//返回队尾元素
+    T pop();//出队，并返回出队的元素
+private:
+    std::size_t count;//个数
+    std::shared_ptr&ltNode&ltT>> first;//队首指针
+    std::shared_ptr&ltNode&ltT>> last;//队尾指针
+};
+                            </pre>
+
+                        <p>通过队首指针指向队首节点，前一个节点指向下一个节点，下一个节点指向它的下一个节点，等等，直到最后一个节点指向nullptr，构成一条链，所以被称作链表。接下来我们看一下每个成员函数的具体实现。</p>
+
+                        <pre class="brush:cpp">
+/*--------------构造函数--------------*/
+template&lttypename T>MyQueue&ltT>::MyQueue() :count(0){
+    first = std::make_shared&ltNode&ltT>>();//创建队首指针
+    first->next = nullptr;//队首指针目前设为nullptr
+    last = std::make_shared&ltNode&ltT>>();//创建队尾指针
+    last->next = nullptr;//队尾指针目前设为nullptr
+};
+                            </pre>
+                        <p>接下来再看看enqueue成员函数</p>
+                        <pre class="brush:cpp">
+/*--------------入队--------------*/
+template&lttypename T>void MyQueue&ltT>::enqueue(T t) {
+    //临时创造一个node节点，内容为T，T的类型根据模板推出
+	std::shared_ptr&ltNode&ltT>> node = std::make_shared&ltNode&ltT>>(t);
+    /*如果队列为空，那么first和last的next都指向这一新创建的node，
+    并且first和last的next都指向这一新创建的node*/
+	if (isEmpty()) {
+		last->next = node;
+		first->next = node;
+		++count;
+	}
+    /*如果队列不为空，first可以不用更新。
+    只需要将last的next的next指向这一新创建的node，（原last指向的node指向新创建的node）
+    并且last的next指向这一新创建的node（更新last指向新创建的node）*/
+	else{
+		last->next->next = node;
+		last->next = node;
+		++count;
+	}
+}
+                            </pre>
+                        <p>然后来看两个简单的成员函数，一个返回目前队列元素个数，一个判断队列是否为空</p>
+                        <pre class="brush:cpp">
+/*--------------判断是否为空--------------*/
+template&lttypename T>bool MyQueue&ltT>::isEmpty() { return count == 0; }//空->true，非空->false
+//返回队列元素个数。如果不知道size_t是什么，可以把size_t看做是一个比较大的int（实际上不一样）
+template&lttypename T>size_t MyQueue&ltT>::size() { return count; }
+
+                            </pre>
+                        <p>再来另一个成员函数，返回对首元素</p>
+                        <pre class="brush:cpp">
+/*--------------返回队首元素--------------*/
+template&lttypename T>T MyQueue&ltT>::front() {
+    //队列不为空，返回first指向的node
+	if (first->next != nullptr) {
+		return first->next->item;
+	}
+    //如果队列为空，抛出异常
+	else {
+		std::cerr << "ERROR：队列为空，无法获得队首元素！" << std::endl;
+		throw std::runtime_error("the queue is empty!");
+	}
+}
+                            </pre>
+                        <p>相应的，有一个返回队尾元素的成员函数。</p>
+                        <pre class="brush:cpp">
+/*--------------返回队尾元素--------------*/
+template&lttypename T>T MyQueue&ltT>::back() {
+    //队列不为空，返回last指向的node
+	if (last->next != nullptr) {
+		return last->next->item;
+	}
+    //如果队列为空，抛出异常
+	else {
+		std::cerr << "ERROR：队列为空，无法获得队尾元素！" << std::endl;
+		throw std::runtime_error("the queue is empty!");
+	}
+}
+                            </pre>
+                        <p>最后一个成员函数，出队对首元素，并返回出队的元素</p>
+                        <pre class="brush:cpp">
+/*--------------出队，并返回--------------*/
+template&lttypename T>T MyQueue&ltT>::pop() {
+    //如果队列不为空
+	if (first->next != nullptr) {
+		std::shared_ptr&ltNode&ltT>> delnode = first->next;//创建一个新的node节点
+		first->next = first->next->next;//first重新指向next的next
+		T item = delnode->item;//保存原first的next的item内容
+		--count;
+		delnode->next = nullptr;//把原first的next指向nullptr，智能指针会自动释放
+		return item;//返回item内容
+	}
+    //如果队列为空，则抛出异常
+	else {
+		std::cerr << "ERROR：队列为空，无法弹出元素！" << std::endl;
+		throw std::runtime_error("the queue is empty!");
+	}
+}
+                            </pre>
+                        <p>最后来测试一下代码。</p>
+                        <pre class="brush:cpp">
+int main() {
+	MyQueue&ltstd::string> q1;
+	q1.enqueue("first");
+	std::cout &lt&lt q1.back() &lt&lt std::endl;
+	q1.enqueue("second");
+	std::cout &lt&lt q1.back() &lt&lt std::endl;
+	q1.enqueue("thrid");
+	std::cout &lt&lt q1.back() &lt&lt std::endl;
+	q1.enqueue("fourth");
+	std::cout &lt&lt q1.back() &lt&lt std::endl;
+	q1.enqueue("fifth");
+	std::cout &lt&lt q1.back() &lt&lt std::endl;
+	q1.enqueue("sixth");
+	std::cout &lt&lt q1.back() &lt&lt std::endl;
+    std::cout &lt&lt "-----------------------" &lt&lt std::endl;
+	while (!q1.isEmpty()) {
+		std::cout &lt&lt q1.pop() &lt&lt std::endl;
+	}
+
+	system("pause");
+	return 0;
+}
+                            </pre>
+                        <p>把first、second、third、fourth、fifth、sixth依次入队。此时队列中是这样的，队首->first--->second--->third--->fourth--->fifth--->sixth<-队尾。然后依次从队首出队。结果如下：</p>
+                        <p>
+                            <img src="../static/image/链表队列结果.png" style="max-width: 840px">
+                        </p>
+                        <p><img src="../static/image/链表队列1.png" style="max-width: 840px"></p>
+                        <p>目前测试全都正确，如果有人测试出bug，麻烦联系我</p>
+                        <p><a rel="github>">https://github.com/Zerahhah/SingleLinkQueue/blob/master/源.cpp</a></p>
+                    </div>
+                </section>
+            </article>
+        </div>
+    </main>
+
+
+    <footer class="site-footer outer">
+        <div class="site-footer-content inner">
+            <section>ZZL's Blog @ xxxx</section>
+        </div>
+    </footer>
+
+</div>
+</body>
+</html>

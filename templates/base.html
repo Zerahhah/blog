@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- 代码高亮中不能太长 否则对不齐 是因为kg-card-markdown的flex布局
+       screen.css的669行
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>article{{ articles.id }}</title>
+    <script src="../static/js/jquery-3.2.1.min.js"></script>
+    <link href="../static/css/screen.css" rel="stylesheet" type="text/css">
+    <script src="../static/js/dist/syntaxhighlighter.js"></script>
+    <link href="../static/js/dist/theme.css" rel="stylesheet" type="text/css">
+</head>
+
+
+
+<body class="post-template">
+    <div class="site-wrapper">
+        <header class="site-header outer">
+            <div class="inner">
+                <nav class="site-nav">
+                    <div class="site-nav-left">
+                        <a class="site-nav-logo" href="/homepage">
+                            <img src="../static/image/logo.jpg">
+                        </a>
+                        <ul class="nav">
+                            <li><a href="/homepage">首页</a></li>
+                            <li><a href="all post">文章分类</a></li>
+                            <li><a href="#">None</a></li>
+                        </ul>
+                    </div>
+
+                </nav>
+            </div>
+        </header>
+        <main class="site-main outer">
+            <div class="inner">
+                <article class="post-full">
+                    <header class="post-full-header">
+                        <section class="post-full-meta">
+                            <time class="post-full-meta-date">2017年1月7日</time>
+                        </section>
+                        <h1 class="post-full-title">单向链表实现队列 </h1>
+                    </header>
+                    <figure class="post-full-image" style="background-image: url('../static/image/content.jpg')"> </figure>
+                    <section class="post-full-content">
+                        <div class="kg-card-markdown">
+                            {{ articles.body | safe }}
+                        </div>
+                    </section>
+                </article>
+            </div>
+        </main>
+
+
+        <footer class="site-footer outer">
+        <div class="site-footer-content inner">
+            <section>ZZL's Blog @ xxxx</section>
+        </div>
+        </footer>
+
+    </div>
+</body>
+</html>

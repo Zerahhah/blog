@@ -1,0 +1,36 @@
+*** Starting uWSGI 2.0.15 (64bit) on [Mon Jan 15 04:45:42 2018] ***
+compiled with version: 5.4.0 20160609 on 14 January 2018 07:47:38
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/zzl/mysite06
+writing pidfile to /home/zzl/mysite06/uwsgi.pid
+detected binary path: /home/zzl/.local/bin/uwsgi
+chdir() to /home/zzl/mysite06
+your processes number limit is 7744
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on 192.168.75.133:8080 fd 3
+uwsgi socket 0 bound to UNIX address /home/zzl/mysite06/uwsgi.sock fd 6
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x24769c0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 485712 bytes (474 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x24769c0 pid: 3072 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3072)
+spawned uWSGI worker 1 (pid: 3079, cores: 1)
+spawned uWSGI worker 2 (pid: 3080, cores: 1)
+spawned uWSGI worker 3 (pid: 3081, cores: 1)
+spawned uWSGI worker 4 (pid: 3082, cores: 1)
+spawned uWSGI worker 5 (pid: 3083, cores: 1)
+spawned uWSGI http 1 (pid: 3084)
