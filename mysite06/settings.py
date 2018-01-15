@@ -120,7 +120,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = '/home/ubuntu/mysite06/stc'
+STATIC_ROOT = '/home/ubuntu/blog/stc'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'static'),
 ]
