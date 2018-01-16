@@ -1,9 +1,7 @@
-# -*- coding:utf-8 -*-
-
 from django.db import models
 from django.utils import timezone
-
 # Create your models here.
+
 
 class Article(models.Model):
     id = models.IntegerField(primary_key=True,verbose_name=u"文章ID")
@@ -15,14 +13,6 @@ class Article(models.Model):
 
     class Meta:
         ordering = ('-pub_date',)
-
-    def __unicode__(self):
-        return self.title
-
-
-class Image(models.Model):
-    id = models.IntegerField(primary_key=True,verbose_name=u"图片ID")
-    img = models.ImageField(verbose_name=u"图片")
 
     def __unicode__(self):
         return self.title
