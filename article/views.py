@@ -7,6 +7,11 @@ from datetime import datetime
 # Create your views here.
 
 
+def welcome(request):
+    template = get_template('welcome.html')
+    html = template.render()
+    return  HttpResponse(html)
+
 def homepage(request):
     template = get_template('homepage.html')
     html = template.render()
@@ -19,7 +24,8 @@ def article(request,num):
     try:
         articles = Article.objects.get(id=id)
         if articles != None:
-            now = datetime.now()
+            articles.view_count += 1
+            articles.save()
             html = template.render(locals())
             return HttpResponse(html)
     except:

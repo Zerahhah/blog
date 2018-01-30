@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>游泳的猫</title>
+</head>
+
+<style>
+    button{
+        text-align: center;
+        left: 42%;
+        top:  45%;
+        position: absolute;
+        width: 16%;
+        /*min-width: 140px;*/
+        height: 10%;
+        background: transparent;
+        border: solid 2px #ffffff;
+        border-radius: 10px;
+        /*
+        font-family: "Microsoft YaHei UI";
+        */
+        font-size: 2rem;
+        color: #ffffff;
+    }
+    body.welcome{
+        background: center;
+        background-image: url('../static/image/cover.jpeg');
+        background-position-x: center;
+        background-position-y: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    @media (max-width: 1280px) {
+        button{
+            left: 42%;
+            top:  46%;
+            width: 16%;
+            height: 8%;
+            border-radius: 10px;
+            font-size:1.5rem;
+        }
+    }
+    @media (max-width: 940px) {
+        button{
+            left: 42%;
+            top:  47%;
+            width: 16%;
+            height: 6%;
+            border-radius: 8px;
+            font-size:1.2rem;
+        }
+    }
+    @media (max-width: 700px) {
+        button{
+            left: 42%;
+            top:  47.5%;
+            width: 16%;
+            height: 5%;
+            border-radius: 8px;
+            font-size:1rem;
+            min-width: 80px;
+            min-height: 25px;
+        }
+    }
+</style>
+<body class="welcome">
+<nav>
+    <p style="font-family: Arial;color: #ffffff;font-size: 1.5rem;position: absolute;left: 30px;top: 30px;margin: 0;">zerahhah's blog</p>
+</nav>
+<a href="/homepage">
+<button>
+    进入博客
+</button>
+</a>
+</body>
+</html>

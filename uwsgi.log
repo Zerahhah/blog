@@ -1,0 +1,1417 @@
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Jan 17 08:36:13 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8001).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Jan 17 08:36:40 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8001).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Jan 17 08:39:29 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8001).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Jan 17 08:40:12 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8001).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Jan 19 20:05:14 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2139210
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 493320 bytes (481 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x2139210 pid: 3501 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3501)
+spawned uWSGI worker 1 (pid: 3503, cores: 1)
+spawned uWSGI worker 2 (pid: 3504, cores: 1)
+spawned uWSGI worker 3 (pid: 3505, cores: 1)
+spawned uWSGI worker 4 (pid: 3506, cores: 1)
+[pid: 3505|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 736 bytes} [Sat Jan 20 12:05:39 2018] GET / => generated 1783 bytes in 418 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 3504|app: 0|req: 1/2] 127.0.0.1 () {40 vars in 723 bytes} [Sat Jan 20 12:05:40 2018] GET /favicon.ico => generated 85 bytes in 76 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3505|app: 0|req: 2/3] 127.0.0.1 () {44 vars in 767 bytes} [Sat Jan 20 12:06:49 2018] GET / => generated 1783 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Jan 19 20:06:55 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8001).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 3506|app: 0|req: 1/4] 127.0.0.1 () {44 vars in 767 bytes} [Sat Jan 20 12:06:58 2018] GET / => generated 1791 bytes in 32 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 3504|app: 0|req: 2/5] 127.0.0.1 () {44 vars in 785 bytes} [Sat Jan 20 12:06:59 2018] GET /homepage => generated 7287 bytes in 20 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 3505|app: 0|req: 3/6] 127.0.0.1 () {46 vars in 816 bytes} [Sat Jan 20 12:07:17 2018] GET /homepage => generated 7287 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Jan 19 20:07:47 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8001).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 3503|app: 0|req: 1/7] 127.0.0.1 () {44 vars in 767 bytes} [Sat Jan 20 12:07:51 2018] GET / => generated 1791 bytes in 542 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 3504|app: 0|req: 3/8] 127.0.0.1 () {44 vars in 785 bytes} [Sat Jan 20 12:07:54 2018] GET /homepage => generated 7287 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 3506|app: 0|req: 2/9] 127.0.0.1 () {46 vars in 816 bytes} [Sat Jan 20 12:08:02 2018] GET /homepage => generated 7287 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 3504|app: 0|req: 4/10] 127.0.0.1 () {44 vars in 795 bytes} [Sat Jan 20 12:09:15 2018] GET /article/1 => generated 10347 bytes in 288 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+...brutally killing workers...
+Gracefully killing worker 4 (pid: 3506)...
+Gracefully killing worker 3 (pid: 3505)...
+Gracefully killing worker 2 (pid: 3504)...
+Gracefully killing worker 1 (pid: 3503)...
+worker 1 buried after 4 seconds
+worker 2 buried after 4 seconds
+worker 3 buried after 4 seconds
+worker 4 buried after 4 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/blog
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (:8001)
+running /home/ubuntu/blog/venv/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Sat Jan 20 12:19:16 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xc64130
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 493320 bytes (481 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0xc64130 pid: 3501 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 3501)
+spawned uWSGI worker 1 (pid: 4108, cores: 1)
+spawned uWSGI worker 2 (pid: 4109, cores: 1)
+spawned uWSGI worker 3 (pid: 4110, cores: 1)
+spawned uWSGI worker 4 (pid: 4111, cores: 1)
+*** Starting uWSGI 2.0.15 (64bit) on [Mon Jan 22 20:41:22 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x9e4210
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 493320 bytes (481 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x9e4210 pid: 20045 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 20045)
+spawned uWSGI worker 1 (pid: 20048, cores: 1)
+spawned uWSGI worker 2 (pid: 20049, cores: 1)
+spawned uWSGI worker 3 (pid: 20050, cores: 1)
+spawned uWSGI worker 4 (pid: 20051, cores: 1)
+[pid: 20049|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 736 bytes} [Tue Jan 23 12:41:42 2018] GET / => generated 1791 bytes in 316 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 20051|app: 0|req: 1/2] 127.0.0.1 () {40 vars in 723 bytes} [Tue Jan 23 12:41:43 2018] GET /favicon.ico => generated 85 bytes in 64 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 20049|app: 0|req: 2/3] 127.0.0.1 () {44 vars in 785 bytes} [Tue Jan 23 12:41:48 2018] GET /homepage => generated 7297 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 20050|app: 0|req: 1/4] 127.0.0.1 () {44 vars in 795 bytes} [Tue Jan 23 12:42:04 2018] GET /article/1 => generated 10347 bytes in 374 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20049|app: 0|req: 3/5] 127.0.0.1 () {42 vars in 748 bytes} [Tue Jan 23 12:48:43 2018] GET /admin/ => generated 5821 bytes in 612 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 20051|app: 0|req: 2/6] 127.0.0.1 () {44 vars in 815 bytes} [Tue Jan 23 12:48:46 2018] GET /admin/article/image/ => generated 4872 bytes in 329 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 20049|app: 0|req: 4/7] 127.0.0.1 () {42 vars in 720 bytes} [Tue Jan 23 12:48:47 2018] GET /admin/jsi18n/ => generated 7678 bytes in 98 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 20051|app: 0|req: 3/8] 127.0.0.1 () {44 vars in 847 bytes} [Tue Jan 23 12:48:49 2018] GET /admin/article/image/1/change/ => generated 4833 bytes in 218 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 20049|app: 0|req: 5/9] 127.0.0.1 () {42 vars in 729 bytes} [Tue Jan 23 12:48:49 2018] GET /admin/jsi18n/ => generated 7678 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 20048|app: 0|req: 1/10] 127.0.0.1 () {44 vars in 847 bytes} [Tue Jan 23 12:49:33 2018] GET /admin/article/image/1/change/ => generated 4833 bytes in 730 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+Tue Jan 23 12:59:01 2018 - *** /home/ubuntu/blog has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 20048)...
+Gracefully killing worker 2 (pid: 20049)...
+Gracefully killing worker 3 (pid: 20050)...
+Gracefully killing worker 4 (pid: 20051)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/blog
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (:8001)
+running /home/ubuntu/blog/venv/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Jan 23 12:59:02 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xd06130
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 493320 bytes (481 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xd06130 pid: 20045 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 20045)
+spawned uWSGI worker 1 (pid: 20435, cores: 1)
+spawned uWSGI worker 2 (pid: 20436, cores: 1)
+spawned uWSGI worker 3 (pid: 20437, cores: 1)
+spawned uWSGI worker 4 (pid: 20438, cores: 1)
+[pid: 20435|app: 0|req: 1/1] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 12:59:05 2018] GET /article/1 => generated 10347 bytes in 141 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20436|app: 0|req: 1/2] 127.0.0.1 () {46 vars in 878 bytes} [Tue Jan 23 12:59:09 2018] GET /admin/article/image/1/change/ => generated 4833 bytes in 361 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 20435|app: 0|req: 2/3] 127.0.0.1 () {44 vars in 760 bytes} [Tue Jan 23 12:59:10 2018] GET /admin/jsi18n/ => generated 7678 bytes in 35 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 20436|app: 0|req: 2/4] 127.0.0.1 () {44 vars in 826 bytes} [Tue Jan 23 12:59:12 2018] GET /admin/article/ => generated 2823 bytes in 42 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 20435|app: 0|req: 3/5] 127.0.0.1 () {44 vars in 827 bytes} [Tue Jan 23 12:59:13 2018] GET /admin/article/article/ => generated 4667 bytes in 190 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 20436|app: 0|req: 3/6] 127.0.0.1 () {42 vars in 722 bytes} [Tue Jan 23 12:59:13 2018] GET /admin/jsi18n/ => generated 7678 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 20435|app: 0|req: 4/7] 127.0.0.1 () {44 vars in 853 bytes} [Tue Jan 23 12:59:15 2018] GET /admin/article/article/1/change/ => generated 16954 bytes in 58 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 20436|app: 0|req: 4/8] 127.0.0.1 () {42 vars in 731 bytes} [Tue Jan 23 12:59:15 2018] GET /admin/jsi18n/ => generated 7678 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 20437|app: 0|req: 1/9] 127.0.0.1 () {48 vars in 1091 bytes} [Tue Jan 23 12:59:54 2018] POST /admin/article/article/1/change/ => generated 0 bytes in 210 msecs (HTTP/1.1 302) 8 headers in 604 bytes (1 switches on core 0)
+[pid: 20435|app: 0|req: 5/10] 127.0.0.1 () {44 vars in 1164 bytes} [Tue Jan 23 12:59:55 2018] GET /admin/article/article/1/change/ => generated 17211 bytes in 59 msecs (HTTP/1.1 200) 8 headers in 466 bytes (1 switches on core 0)
+[pid: 20436|app: 0|req: 5/11] 127.0.0.1 () {42 vars in 731 bytes} [Tue Jan 23 12:59:55 2018] GET /admin/jsi18n/ => generated 7678 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+Tue Jan 23 12:59:55 2018 - *** /home/ubuntu/blog has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 3 (pid: 20437)...
+Gracefully killing worker 4 (pid: 20438)...
+Gracefully killing worker 1 (pid: 20435)...
+Gracefully killing worker 2 (pid: 20436)...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/blog
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (:8001)
+running /home/ubuntu/blog/venv/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Jan 23 12:59:58 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1784130
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 493320 bytes (481 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1784130 pid: 20045 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 20045)
+spawned uWSGI worker 1 (pid: 20462, cores: 1)
+spawned uWSGI worker 2 (pid: 20463, cores: 1)
+spawned uWSGI worker 3 (pid: 20464, cores: 1)
+spawned uWSGI worker 4 (pid: 20465, cores: 1)
+[pid: 20462|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 794 bytes} [Tue Jan 23 13:01:05 2018] GET /homepage => generated 7297 bytes in 126 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 20463|app: 0|req: 1/2] 127.0.0.1 () {44 vars in 795 bytes} [Tue Jan 23 13:01:06 2018] GET /article/1 => generated 10339 bytes in 51 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20462|app: 0|req: 2/3] 127.0.0.1 () {42 vars in 741 bytes} [Tue Jan 23 13:01:06 2018] GET /article/post1_background.jpeg => generated 103 bytes in 11 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20465|app: 0|req: 1/4] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:01:22 2018] GET /article/1 => generated 10339 bytes in 55 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20462|app: 0|req: 3/5] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:01:22 2018] GET /article/post1_background.jpeg => generated 103 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20462|app: 0|req: 4/6] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:02:50 2018] GET /article/1 => generated 10357 bytes in 16 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20463|app: 0|req: 2/7] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:03:08 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20465|app: 0|req: 2/8] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:03:09 2018] GET /article/post1_background.jpeg => generated 103 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20464|app: 0|req: 1/9] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:03:16 2018] GET /article/1 => generated 10357 bytes in 51 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20462|app: 0|req: 5/10] 127.0.0.1 () {44 vars in 794 bytes} [Tue Jan 23 13:03:22 2018] GET /homepage => generated 7297 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 20465|app: 0|req: 3/11] 127.0.0.1 () {44 vars in 795 bytes} [Tue Jan 23 13:03:23 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20463|app: 0|req: 3/12] 127.0.0.1 () {42 vars in 741 bytes} [Tue Jan 23 13:03:24 2018] GET /article/post1_background.jpeg => generated 103 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20462|app: 0|req: 6/13] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:03:33 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20463|app: 0|req: 4/14] 127.0.0.1 () {44 vars in 794 bytes} [Tue Jan 23 13:03:37 2018] GET /homepage => generated 7297 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 20465|app: 0|req: 4/15] 127.0.0.1 () {44 vars in 795 bytes} [Tue Jan 23 13:03:39 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20463|app: 0|req: 5/16] 127.0.0.1 () {42 vars in 741 bytes} [Tue Jan 23 13:03:39 2018] GET /article/post1_background.jpeg => generated 103 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20464|app: 0|req: 2/17] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:03:42 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20462|app: 0|req: 7/18] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:03:44 2018] GET /article/1 => generated 10357 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20463|app: 0|req: 6/19] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:03:46 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20465|app: 0|req: 5/20] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:03:47 2018] GET /article/post1_background.jpeg => generated 103 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20464|app: 0|req: 3/21] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:03:49 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20463|app: 0|req: 7/22] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:03:51 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20462|app: 0|req: 8/23] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:03:51 2018] GET /article/post1_background.jpeg => generated 103 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20465|app: 0|req: 6/24] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:03:53 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20464|app: 0|req: 4/25] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:03:53 2018] GET /article/post1_background.jpeg => generated 103 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20462|app: 0|req: 9/26] 127.0.0.1 () {44 vars in 794 bytes} [Tue Jan 23 13:04:00 2018] GET /homepage => generated 7297 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 20463|app: 0|req: 8/27] 127.0.0.1 () {44 vars in 795 bytes} [Tue Jan 23 13:04:02 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20462|app: 0|req: 10/28] 127.0.0.1 () {42 vars in 741 bytes} [Tue Jan 23 13:04:03 2018] GET /article/post1_background.jpeg => generated 103 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20465|app: 0|req: 7/29] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:04:06 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20464|app: 0|req: 5/30] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:04:06 2018] GET /article/post1_background.jpeg => generated 103 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20462|app: 0|req: 11/31] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:04:10 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20462|app: 0|req: 12/32] 127.0.0.1 () {44 vars in 795 bytes} [Tue Jan 23 13:06:14 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20463|app: 0|req: 9/33] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:06:16 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20464|app: 0|req: 6/34] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:06:17 2018] GET /article/post1_background.jpeg => generated 103 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20465|app: 0|req: 8/35] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:06:28 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20464|app: 0|req: 7/36] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:06:28 2018] GET /article/post1_background.jpeg => generated 103 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20462|app: 0|req: 13/37] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:06:32 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20463|app: 0|req: 10/38] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:06:38 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20464|app: 0|req: 8/39] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:06:39 2018] GET /article/post1_background.jpeg => generated 103 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20462|app: 0|req: 14/40] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:09:00 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20463|app: 0|req: 11/41] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:09:03 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20464|app: 0|req: 9/42] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:09:04 2018] GET /article/post1_background.jpeg => generated 103 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20465|app: 0|req: 9/43] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:09:11 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20464|app: 0|req: 10/44] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:09:11 2018] GET /article/post1_background.jpeg => generated 103 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20462|app: 0|req: 15/45] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:09:13 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20463|app: 0|req: 12/46] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:09:41 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20464|app: 0|req: 11/47] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:09:41 2018] GET /article/post1_background.jpeg => generated 103 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.15 (64bit) on [Mon Jan 22 21:10:24 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8001).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 20462|app: 0|req: 16/48] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:10:27 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20463|app: 0|req: 13/49] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:10:29 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20464|app: 0|req: 12/50] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:10:29 2018] GET /article/post1_background.jpeg => generated 103 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20465|app: 0|req: 10/51] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:10:30 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20464|app: 0|req: 13/52] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:10:31 2018] GET /article/post1_background.jpeg => generated 103 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20464|app: 0|req: 14/53] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:10:32 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20462|app: 0|req: 17/54] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:10:35 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20463|app: 0|req: 14/55] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:10:37 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20465|app: 0|req: 11/56] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:10:38 2018] GET /article/post1_background.jpeg => generated 103 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20465|app: 0|req: 12/57] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:10:56 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20462|app: 0|req: 18/58] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:10:57 2018] GET /article/post1_background.jpeg => generated 103 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20463|app: 0|req: 15/59] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:10:59 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20464|app: 0|req: 15/60] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:10:59 2018] GET /article/post1_background.jpeg => generated 103 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20462|app: 0|req: 19/61] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:11:01 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20464|app: 0|req: 16/62] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:11:03 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20465|app: 0|req: 13/63] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:11:05 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20463|app: 0|req: 16/64] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:11:06 2018] GET /article/post1_background.jpeg => generated 103 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20462|app: 0|req: 20/65] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:12:08 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20463|app: 0|req: 17/66] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:12:10 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20464|app: 0|req: 17/67] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:12:11 2018] GET /article/post1_background.jpeg => generated 103 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20465|app: 0|req: 14/68] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:12:13 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20464|app: 0|req: 18/69] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:12:13 2018] GET /article/post1_background.jpeg => generated 103 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20464|app: 0|req: 19/70] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:12:15 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20465|app: 0|req: 15/71] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:12:18 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20462|app: 0|req: 21/72] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:12:18 2018] GET /article/post1_background.jpeg => generated 103 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20462|app: 0|req: 22/73] 127.0.0.1 () {44 vars in 862 bytes} [Tue Jan 23 13:13:40 2018] GET /admin/article/article/1/change/ => generated 16992 bytes in 740 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 20463|app: 0|req: 18/74] 127.0.0.1 () {44 vars in 827 bytes} [Tue Jan 23 13:13:42 2018] GET /admin/article/article/ => generated 4667 bytes in 272 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 20462|app: 0|req: 23/75] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:13:44 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20464|app: 0|req: 20/76] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:13:49 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20465|app: 0|req: 16/77] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:13:53 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20464|app: 0|req: 21/78] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:13:53 2018] GET /article/post1_background.jpeg => generated 103 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20462|app: 0|req: 24/79] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:13:59 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20465|app: 0|req: 17/80] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:14:01 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20463|app: 0|req: 19/81] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:14:02 2018] GET /article/post1_background.jpeg => generated 103 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20464|app: 0|req: 22/82] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:14:05 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20463|app: 0|req: 20/83] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:14:07 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20462|app: 0|req: 25/84] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:14:08 2018] GET /article/post1_background.jpeg => generated 103 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20465|app: 0|req: 18/85] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:14:10 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20464|app: 0|req: 23/86] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:14:11 2018] GET /article/post1_background.jpeg => generated 103 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20462|app: 0|req: 26/87] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:16:07 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20463|app: 0|req: 21/88] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:16:17 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20465|app: 0|req: 19/89] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:16:17 2018] GET /article/post1_background.jpeg => generated 103 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20464|app: 0|req: 24/90] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:16:20 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20465|app: 0|req: 20/91] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:16:23 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20462|app: 0|req: 27/92] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:16:23 2018] GET /article/post1_background.jpeg => generated 103 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20463|app: 0|req: 22/93] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:16:25 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20464|app: 0|req: 25/94] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:16:25 2018] GET /article/post1_background.jpeg => generated 103 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20465|app: 0|req: 21/95] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:16:27 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20462|app: 0|req: 28/96] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:16:28 2018] GET /article/post1_background.jpeg => generated 103 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20462|app: 0|req: 29/97] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:20:33 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20463|app: 0|req: 23/98] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:20:36 2018] GET /article/1 => generated 10339 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20464|app: 0|req: 26/99] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:20:37 2018] GET /article/post1_background.jpeg => generated 103 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20465|app: 0|req: 22/100] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:20:39 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20464|app: 0|req: 27/101] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:20:40 2018] GET /article/post1_background.jpeg => generated 103 bytes in 108 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20462|app: 0|req: 30/102] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:20:41 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20465|app: 0|req: 23/103] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:20:45 2018] GET /article/1 => generated 10339 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20462|app: 0|req: 31/104] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:20:45 2018] GET /article/post1_background.jpeg => generated 103 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 20463|app: 0|req: 24/105] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:20:47 2018] GET /article/1 => generated 10339 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20464|app: 0|req: 28/106] 127.0.0.1 () {44 vars in 772 bytes} [Tue Jan 23 13:20:47 2018] GET /article/post1_background.jpeg => generated 103 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+Tue Jan 23 13:25:06 2018 - *** /home/ubuntu/blog has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 20462)...
+Gracefully killing worker 2 (pid: 20463)...
+Gracefully killing worker 3 (pid: 20464)...
+Gracefully killing worker 4 (pid: 20465)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/blog
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (:8001)
+running /home/ubuntu/blog/venv/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Jan 23 13:25:08 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1d37130
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 493320 bytes (481 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1d37130 pid: 20045 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 20045)
+spawned uWSGI worker 1 (pid: 20815, cores: 1)
+spawned uWSGI worker 2 (pid: 20816, cores: 1)
+spawned uWSGI worker 3 (pid: 20817, cores: 1)
+spawned uWSGI worker 4 (pid: 20818, cores: 1)
+[pid: 20816|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 803 bytes} [Tue Jan 23 13:25:12 2018] GET /admin/ => generated 6124 bytes in 272 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 20817|app: 0|req: 1/2] 127.0.0.1 () {44 vars in 819 bytes} [Tue Jan 23 13:25:14 2018] GET /admin/article/article/ => generated 4667 bytes in 333 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 20816|app: 0|req: 2/3] 127.0.0.1 () {42 vars in 722 bytes} [Tue Jan 23 13:25:15 2018] GET /admin/jsi18n/ => generated 7678 bytes in 28 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 20818|app: 0|req: 1/4] 127.0.0.1 () {44 vars in 853 bytes} [Tue Jan 23 13:25:17 2018] GET /admin/article/article/1/change/ => generated 16945 bytes in 531 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 20817|app: 0|req: 2/5] 127.0.0.1 () {42 vars in 731 bytes} [Tue Jan 23 13:25:17 2018] GET /admin/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 20816|app: 0|req: 3/6] 127.0.0.1 () {48 vars in 1083 bytes} [Tue Jan 23 13:25:52 2018] POST /admin/article/article/1/change/ => generated 0 bytes in 92 msecs (HTTP/1.1 302) 8 headers in 604 bytes (1 switches on core 0)
+[pid: 20817|app: 0|req: 3/7] 127.0.0.1 () {44 vars in 1164 bytes} [Tue Jan 23 13:25:52 2018] GET /admin/article/article/1/change/ => generated 17184 bytes in 175 msecs (HTTP/1.1 200) 8 headers in 466 bytes (1 switches on core 0)
+[pid: 20816|app: 0|req: 4/8] 127.0.0.1 () {42 vars in 731 bytes} [Tue Jan 23 13:25:52 2018] GET /admin/jsi18n/ => generated 7678 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+Tue Jan 23 13:25:53 2018 - *** /home/ubuntu/blog has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 20815)...
+Gracefully killing worker 4 (pid: 20818)...
+Gracefully killing worker 3 (pid: 20817)...
+Gracefully killing worker 2 (pid: 20816)...
+worker 2 buried after 1 seconds
+worker 1 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/blog
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (:8001)
+running /home/ubuntu/blog/venv/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Jan 23 13:25:55 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x20db130
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 493320 bytes (481 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x20db130 pid: 20045 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 20045)
+spawned uWSGI worker 1 (pid: 20829, cores: 1)
+spawned uWSGI worker 2 (pid: 20830, cores: 1)
+spawned uWSGI worker 3 (pid: 20831, cores: 1)
+spawned uWSGI worker 4 (pid: 20832, cores: 1)
+[pid: 20831|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 828 bytes} [Tue Jan 23 13:26:33 2018] GET /admin/article/ => generated 2823 bytes in 120 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 20830|app: 0|req: 1/2] 127.0.0.1 () {44 vars in 827 bytes} [Tue Jan 23 13:26:34 2018] GET /admin/article/article/ => generated 4667 bytes in 158 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 20831|app: 0|req: 2/3] 127.0.0.1 () {42 vars in 722 bytes} [Tue Jan 23 13:26:34 2018] GET /admin/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 20829|app: 0|req: 1/4] 127.0.0.1 () {44 vars in 853 bytes} [Tue Jan 23 13:26:35 2018] GET /admin/article/article/1/change/ => generated 16965 bytes in 172 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 20831|app: 0|req: 3/5] 127.0.0.1 () {42 vars in 731 bytes} [Tue Jan 23 13:26:35 2018] GET /admin/jsi18n/ => generated 7678 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 20830|app: 0|req: 2/6] 127.0.0.1 () {44 vars in 828 bytes} [Tue Jan 23 13:26:38 2018] GET /admin/article/ => generated 2823 bytes in 20 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 20831|app: 0|req: 4/7] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:26:39 2018] GET /article/1 => generated 10363 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20832|app: 0|req: 1/8] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:26:46 2018] GET /article/1 => generated 10363 bytes in 110 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20831|app: 0|req: 5/9] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:26:48 2018] GET /article/1 => generated 10363 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20829|app: 0|req: 2/10] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:26:51 2018] GET /article/1 => generated 10363 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20830|app: 0|req: 3/11] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 13:27:00 2018] GET /article/1 => generated 10363 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20831|app: 0|req: 6/12] 127.0.0.1 () {44 vars in 794 bytes} [Tue Jan 23 13:27:08 2018] GET /homepage => generated 7297 bytes in 25 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 20830|app: 0|req: 4/13] 127.0.0.1 () {46 vars in 825 bytes} [Tue Jan 23 13:27:45 2018] GET /homepage => generated 7297 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 20829|app: 0|req: 3/14] 127.0.0.1 () {44 vars in 795 bytes} [Tue Jan 23 13:27:56 2018] GET /article/1 => generated 10363 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 20831|app: 0|req: 7/15] 127.0.0.1 () {44 vars in 823 bytes} [Tue Jan 23 14:10:19 2018] GET /admin/article/image/ => generated 4872 bytes in 579 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 20830|app: 0|req: 5/16] 127.0.0.1 () {42 vars in 720 bytes} [Tue Jan 23 14:10:20 2018] GET /admin/jsi18n/ => generated 7678 bytes in 110 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 20831|app: 0|req: 8/17] 127.0.0.1 () {44 vars in 847 bytes} [Tue Jan 23 14:10:22 2018] GET /admin/article/image/3/change/ => generated 4845 bytes in 244 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 20830|app: 0|req: 6/18] 127.0.0.1 () {42 vars in 729 bytes} [Tue Jan 23 14:10:23 2018] GET /admin/jsi18n/ => generated 7678 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 20829|app: 0|req: 4/19] 127.0.0.1 () {44 vars in 838 bytes} [Tue Jan 23 14:10:26 2018] GET /admin/article/image/ => generated 4872 bytes in 46 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 20831|app: 0|req: 9/20] 127.0.0.1 () {42 vars in 720 bytes} [Tue Jan 23 14:10:26 2018] GET /admin/jsi18n/ => generated 7678 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 20830|app: 0|req: 7/21] 127.0.0.1 () {44 vars in 837 bytes} [Tue Jan 23 14:10:30 2018] GET /admin/article/image/add/ => generated 4468 bytes in 31 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 20831|app: 0|req: 10/22] 127.0.0.1 () {42 vars in 724 bytes} [Tue Jan 23 14:10:31 2018] GET /admin/jsi18n/ => generated 7678 bytes in 42 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 20830|app: 0|req: 8/23] 127.0.0.1 () {48 vars in 1070 bytes} [Tue Jan 23 14:10:43 2018] POST /admin/article/image/add/ => generated 0 bytes in 172 msecs (HTTP/1.1 302) 8 headers in 501 bytes (1 switches on core 0)
+Tue Jan 23 14:10:43 2018 - *** /home/ubuntu/blog has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 20829)...
+Gracefully killing worker 3 (pid: 20831)...
+Gracefully killing worker 2 (pid: 20830)...
+Gracefully killing worker 4 (pid: 20832)...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/blog
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (:8001)
+running /home/ubuntu/blog/venv/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Jan 23 14:10:45 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xfb8130
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 493320 bytes (481 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0xfb8130 pid: 20045 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 20045)
+spawned uWSGI worker 1 (pid: 21031, cores: 1)
+spawned uWSGI worker 2 (pid: 21032, cores: 1)
+spawned uWSGI worker 3 (pid: 21033, cores: 1)
+spawned uWSGI worker 4 (pid: 21034, cores: 1)
+[pid: 21031|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 1043 bytes} [Tue Jan 23 14:10:50 2018] GET /admin/article/image/ => generated 5278 bytes in 676 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 21032|app: 0|req: 1/2] 127.0.0.1 () {42 vars in 720 bytes} [Tue Jan 23 14:10:51 2018] GET /admin/jsi18n/ => generated 7678 bytes in 40 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 21031|app: 0|req: 2/3] 127.0.0.1 () {44 vars in 817 bytes} [Tue Jan 23 14:10:55 2018] GET /admin/article/ => generated 2823 bytes in 18 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 21032|app: 0|req: 2/4] 127.0.0.1 () {44 vars in 827 bytes} [Tue Jan 23 14:10:56 2018] GET /admin/article/article/ => generated 4667 bytes in 95 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 21031|app: 0|req: 3/5] 127.0.0.1 () {42 vars in 722 bytes} [Tue Jan 23 14:10:56 2018] GET /admin/jsi18n/ => generated 7678 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 21033|app: 0|req: 1/6] 127.0.0.1 () {44 vars in 853 bytes} [Tue Jan 23 14:10:57 2018] GET /admin/article/article/2/change/ => generated 15430 bytes in 157 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 21031|app: 0|req: 4/7] 127.0.0.1 () {42 vars in 731 bytes} [Tue Jan 23 14:10:57 2018] GET /admin/jsi18n/ => generated 7678 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 21032|app: 0|req: 3/8] 127.0.0.1 () {48 vars in 1083 bytes} [Tue Jan 23 14:11:07 2018] POST /admin/article/article/2/change/ => generated 0 bytes in 89 msecs (HTTP/1.1 302) 8 headers in 634 bytes (1 switches on core 0)
+[pid: 21031|app: 0|req: 5/9] 127.0.0.1 () {44 vars in 1189 bytes} [Tue Jan 23 14:11:07 2018] GET /admin/article/article/add/ => generated 7725 bytes in 44 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 21032|app: 0|req: 4/10] 127.0.0.1 () {42 vars in 726 bytes} [Tue Jan 23 14:11:07 2018] GET /admin/jsi18n/ => generated 7678 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+Tue Jan 23 14:11:07 2018 - *** /home/ubuntu/blog has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 3 (pid: 21033)...
+Gracefully killing worker 4 (pid: 21034)...
+Gracefully killing worker 1 (pid: 21031)...
+Gracefully killing worker 2 (pid: 21032)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/blog
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (:8001)
+running /home/ubuntu/blog/venv/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Jan 23 14:11:09 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xcdc130
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 493320 bytes (481 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xcdc130 pid: 20045 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 20045)
+spawned uWSGI worker 1 (pid: 21042, cores: 1)
+spawned uWSGI worker 2 (pid: 21043, cores: 1)
+spawned uWSGI worker 3 (pid: 21044, cores: 1)
+spawned uWSGI worker 4 (pid: 21045, cores: 1)
+[pid: 21044|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 839 bytes} [Tue Jan 23 14:11:12 2018] GET /admin/article/article/ => generated 4667 bytes in 140 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 21043|app: 0|req: 1/2] 127.0.0.1 () {42 vars in 722 bytes} [Tue Jan 23 14:11:13 2018] GET /admin/jsi18n/ => generated 7678 bytes in 44 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 21045|app: 0|req: 1/3] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 14:11:22 2018] GET /article/1 => generated 10363 bytes in 65 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 21043|app: 0|req: 2/4] 127.0.0.1 () {44 vars in 794 bytes} [Tue Jan 23 14:11:25 2018] GET /homepage => generated 7297 bytes in 28 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 21045|app: 0|req: 2/5] 127.0.0.1 () {44 vars in 795 bytes} [Tue Jan 23 14:11:28 2018] GET /article/2 => generated 8935 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 21045|app: 0|req: 3/6] 127.0.0.1 () {44 vars in 794 bytes} [Tue Jan 23 14:13:29 2018] GET /homepage => generated 7306 bytes in 316 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 21042|app: 0|req: 1/7] 127.0.0.1 () {46 vars in 825 bytes} [Tue Jan 23 14:16:40 2018] GET /homepage => generated 7306 bytes in 542 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 21043|app: 0|req: 3/8] 127.0.0.1 () {46 vars in 825 bytes} [Tue Jan 23 14:17:14 2018] GET /homepage => generated 7297 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 21043|app: 0|req: 4/9] 127.0.0.1 () {44 vars in 795 bytes} [Tue Jan 23 14:17:42 2018] GET /article/1 => generated 10363 bytes in 187 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 21045|app: 0|req: 4/10] 127.0.0.1 () {44 vars in 794 bytes} [Tue Jan 23 14:17:46 2018] GET /homepage => generated 7306 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 21044|app: 0|req: 2/11] 127.0.0.1 () {46 vars in 825 bytes} [Tue Jan 23 14:18:32 2018] GET /homepage => generated 7306 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 21043|app: 0|req: 5/12] 127.0.0.1 () {46 vars in 825 bytes} [Tue Jan 23 14:19:10 2018] GET /homepage => generated 7297 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.15 (64bit) on [Mon Jan 22 22:19:47 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8001).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 21043|app: 0|req: 6/13] 127.0.0.1 () {46 vars in 825 bytes} [Tue Jan 23 14:19:51 2018] GET /homepage => generated 7297 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 21043|app: 0|req: 7/14] 127.0.0.1 () {44 vars in 668 bytes} [Tue Jan 23 14:21:04 2018] GET /admin/ => generated 0 bytes in 54 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 0)
+[pid: 21045|app: 0|req: 5/15] 127.0.0.1 () {44 vars in 705 bytes} [Tue Jan 23 14:21:04 2018] GET /admin/login/?next=/admin/ => generated 1857 bytes in 403 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 21043|app: 0|req: 8/16] 127.0.0.1 () {42 vars in 736 bytes} [Tue Jan 23 14:21:08 2018] GET / => generated 1791 bytes in 9 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 21042|app: 0|req: 2/17] 127.0.0.1 () {40 vars in 723 bytes} [Tue Jan 23 14:21:08 2018] GET /favicon.ico => generated 85 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 21044|app: 0|req: 3/18] 127.0.0.1 () {44 vars in 785 bytes} [Tue Jan 23 14:21:09 2018] GET /homepage => generated 7306 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 21044|app: 0|req: 4/19] 127.0.0.1 () {46 vars in 816 bytes} [Tue Jan 23 14:21:40 2018] GET /homepage => generated 7306 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 21043|app: 0|req: 9/20] 127.0.0.1 () {46 vars in 816 bytes} [Tue Jan 23 14:21:46 2018] GET /homepage => generated 7297 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 21043|app: 0|req: 10/21] 127.0.0.1 () {46 vars in 816 bytes} [Tue Jan 23 14:22:36 2018] GET /homepage => generated 7297 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 21043|app: 0|req: 11/22] 127.0.0.1 () {46 vars in 816 bytes} [Tue Jan 23 14:23:07 2018] GET /homepage => generated 7297 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Gracefully killing worker 2 (pid: 21043)...
+Gracefully killing worker 3 (pid: 21044)...
+Gracefully killing worker 4 (pid: 21045)...
+Gracefully killing worker 1 (pid: 21042)...
+...gracefully killing workers...
+worker 1 buried after 4 seconds
+worker 2 buried after 11 seconds
+worker 3 buried after 11 seconds
+worker 4 buried after 11 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/blog
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (:8001)
+running /home/ubuntu/blog/venv/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Jan 23 14:24:00 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x22d9130
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 493320 bytes (481 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x22d9130 pid: 20045 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 20045)
+spawned uWSGI worker 1 (pid: 21492, cores: 1)
+spawned uWSGI worker 2 (pid: 21493, cores: 1)
+spawned uWSGI worker 3 (pid: 21494, cores: 1)
+spawned uWSGI worker 4 (pid: 21495, cores: 1)
+*** Starting uWSGI 2.0.15 (64bit) on [Mon Jan 22 22:28:51 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-31-generic #34~16.04.1-Ubuntu SMP Fri Jan 19 17:11:01 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xe361a0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 493320 bytes (481 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0xe361a0 pid: 2699 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2699)
+spawned uWSGI worker 1 (pid: 2707, cores: 1)
+spawned uWSGI worker 2 (pid: 2708, cores: 1)
+spawned uWSGI worker 3 (pid: 2709, cores: 1)
+spawned uWSGI worker 4 (pid: 2710, cores: 1)
+[pid: 2707|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 656 bytes} [Tue Jan 23 14:29:06 2018] GET / => generated 1791 bytes in 220 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2708|app: 0|req: 1/2] 127.0.0.1 () {42 vars in 736 bytes} [Tue Jan 23 14:29:11 2018] GET / => generated 1791 bytes in 49 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2707|app: 0|req: 2/3] 127.0.0.1 () {40 vars in 723 bytes} [Tue Jan 23 14:29:11 2018] GET /favicon.ico => generated 85 bytes in 39 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2710|app: 0|req: 1/4] 127.0.0.1 () {44 vars in 785 bytes} [Tue Jan 23 14:29:12 2018] GET /homepage => generated 7306 bytes in 43 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2707|app: 0|req: 3/5] 127.0.0.1 () {44 vars in 795 bytes} [Tue Jan 23 14:29:14 2018] GET /article/1 => generated 10363 bytes in 220 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2710|app: 0|req: 2/6] 127.0.0.1 () {44 vars in 794 bytes} [Tue Jan 23 14:29:27 2018] GET /homepage => generated 7306 bytes in 207 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+...brutally killing workers...
+Gracefully killing worker 1 (pid: 2707)...
+Gracefully killing worker 2 (pid: 2708)...
+Gracefully killing worker 3 (pid: 2709)...
+Gracefully killing worker 4 (pid: 2710)...
+worker 1 buried after 4 seconds
+worker 2 buried after 4 seconds
+worker 3 buried after 4 seconds
+worker 4 buried after 4 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/blog
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (:8001)
+running /home/ubuntu/blog/venv/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Jan 23 14:32:38 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-31-generic #34~16.04.1-Ubuntu SMP Fri Jan 19 17:11:01 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x26b70c0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 493320 bytes (481 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 5 seconds on interpreter 0x26b70c0 pid: 2699 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 2699)
+spawned uWSGI worker 1 (pid: 3080, cores: 1)
+spawned uWSGI worker 2 (pid: 3081, cores: 1)
+spawned uWSGI worker 3 (pid: 3082, cores: 1)
+spawned uWSGI worker 4 (pid: 3083, cores: 1)
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Jan 23 02:00:58 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-31-generic #34~16.04.1-Ubuntu SMP Fri Jan 19 17:11:01 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1fab210
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 493320 bytes (481 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1fab210 pid: 2766 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2766)
+spawned uWSGI worker 1 (pid: 2768, cores: 1)
+spawned uWSGI worker 2 (pid: 2769, cores: 1)
+spawned uWSGI worker 3 (pid: 2770, cores: 1)
+spawned uWSGI worker 4 (pid: 2771, cores: 1)
+[pid: 2768|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 748 bytes} [Tue Jan 23 18:01:15 2018] GET /admin/ => generated 7024 bytes in 410 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 2769|app: 0|req: 1/2] 127.0.0.1 () {40 vars in 723 bytes} [Tue Jan 23 18:01:16 2018] GET /favicon.ico => generated 85 bytes in 65 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2768|app: 0|req: 2/3] 127.0.0.1 () {44 vars in 819 bytes} [Tue Jan 23 18:01:17 2018] GET /admin/article/article/ => generated 4667 bytes in 84 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2769|app: 0|req: 2/4] 127.0.0.1 () {42 vars in 722 bytes} [Tue Jan 23 18:01:18 2018] GET /admin/jsi18n/ => generated 7678 bytes in 107 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2768|app: 0|req: 3/5] 127.0.0.1 () {44 vars in 853 bytes} [Tue Jan 23 18:01:19 2018] GET /admin/article/article/1/change/ => generated 17468 bytes in 127 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 2769|app: 0|req: 3/6] 127.0.0.1 () {42 vars in 731 bytes} [Tue Jan 23 18:01:19 2018] GET /admin/jsi18n/ => generated 7678 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2770|app: 0|req: 1/7] 127.0.0.1 () {42 vars in 752 bytes} [Tue Jan 23 18:01:27 2018] GET /homepage => generated 7306 bytes in 44 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2769|app: 0|req: 4/8] 127.0.0.1 () {44 vars in 795 bytes} [Tue Jan 23 18:01:38 2018] GET /article/1 => generated 10363 bytes in 248 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2771|app: 0|req: 1/9] 127.0.0.1 () {44 vars in 794 bytes} [Tue Jan 23 18:01:48 2018] GET /homepage => generated 7306 bytes in 844 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2768|app: 0|req: 4/10] 127.0.0.1 () {46 vars in 884 bytes} [Tue Jan 23 18:01:54 2018] GET /admin/article/article/1/change/ => generated 17468 bytes in 289 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 2769|app: 0|req: 5/11] 127.0.0.1 () {44 vars in 762 bytes} [Tue Jan 23 18:01:55 2018] GET /admin/jsi18n/ => generated 7678 bytes in 51 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2768|app: 0|req: 5/12] 127.0.0.1 () {44 vars in 828 bytes} [Tue Jan 23 18:01:59 2018] GET /admin/article/ => generated 2823 bytes in 49 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 2769|app: 0|req: 6/13] 127.0.0.1 () {44 vars in 827 bytes} [Tue Jan 23 18:02:01 2018] GET /admin/article/article/ => generated 4667 bytes in 526 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2768|app: 0|req: 6/14] 127.0.0.1 () {42 vars in 722 bytes} [Tue Jan 23 18:02:01 2018] GET /admin/jsi18n/ => generated 7678 bytes in 25 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2770|app: 0|req: 2/15] 127.0.0.1 () {44 vars in 853 bytes} [Tue Jan 23 18:02:03 2018] GET /admin/article/article/1/change/ => generated 17468 bytes in 430 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 2768|app: 0|req: 7/16] 127.0.0.1 () {42 vars in 731 bytes} [Tue Jan 23 18:02:04 2018] GET /admin/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2768|app: 0|req: 8/17] 127.0.0.1 () {44 vars in 795 bytes} [Tue Jan 23 18:03:30 2018] GET /article/1 => generated 10370 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2769|app: 0|req: 7/18] 127.0.0.1 () {46 vars in 884 bytes} [Tue Jan 23 18:03:37 2018] GET /admin/article/article/1/change/ => generated 17468 bytes in 42 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 2768|app: 0|req: 9/19] 127.0.0.1 () {44 vars in 762 bytes} [Tue Jan 23 18:03:37 2018] GET /admin/jsi18n/ => generated 7678 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2768|app: 0|req: 10/20] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 18:13:59 2018] GET /article/1 => generated 10370 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2769|app: 0|req: 8/21] 127.0.0.1 () {44 vars in 794 bytes} [Tue Jan 23 18:14:01 2018] GET /homepage => generated 7306 bytes in 71 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2770|app: 0|req: 3/22] 127.0.0.1 () {44 vars in 795 bytes} [Tue Jan 23 18:14:04 2018] GET /article/1 => generated 27 bytes in 229 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 2768|app: 0|req: 11/23] 127.0.0.1 () {44 vars in 795 bytes} [Tue Jan 23 18:14:10 2018] GET /article/1 => generated 10370 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2771|app: 0|req: 2/24] 127.0.0.1 () {44 vars in 794 bytes} [Tue Jan 23 18:14:17 2018] GET /homepage => generated 7306 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2769|app: 0|req: 9/25] 127.0.0.1 () {44 vars in 795 bytes} [Tue Jan 23 18:14:18 2018] GET /article/2 => generated 8935 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2771|app: 0|req: 3/26] 127.0.0.1 () {44 vars in 794 bytes} [Tue Jan 23 18:14:25 2018] GET /homepage => generated 7306 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2771|app: 0|req: 4/27] 127.0.0.1 () {44 vars in 795 bytes} [Tue Jan 23 18:14:34 2018] GET /article/1 => generated 27 bytes in 71 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 2768|app: 0|req: 12/28] 127.0.0.1 () {44 vars in 795 bytes} [Tue Jan 23 18:14:42 2018] GET /article/1 => generated 10370 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2768|app: 0|req: 13/29] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 18:15:42 2018] GET /article/1 => generated 10370 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2769|app: 0|req: 10/30] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 18:15:44 2018] GET /article/1 => generated 10363 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2770|app: 0|req: 4/31] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 18:15:46 2018] GET /article/1 => generated 10357 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2771|app: 0|req: 5/32] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 18:15:48 2018] GET /article/1 => generated 10357 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2768|app: 0|req: 14/33] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 18:16:10 2018] GET /article/1 => generated 10370 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2769|app: 0|req: 11/34] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 18:16:11 2018] GET /article/1 => generated 10363 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2770|app: 0|req: 5/35] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 18:16:14 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2771|app: 0|req: 6/36] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 18:16:15 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2768|app: 0|req: 15/37] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 18:16:16 2018] GET /article/1 => generated 10370 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2769|app: 0|req: 12/38] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 18:16:17 2018] GET /article/1 => generated 10363 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2770|app: 0|req: 6/39] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 18:16:19 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2771|app: 0|req: 7/40] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 18:16:20 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2768|app: 0|req: 16/41] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 18:16:21 2018] GET /article/1 => generated 10370 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Jan 23 02:16:36 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-31-generic #34~16.04.1-Ubuntu SMP Fri Jan 19 17:11:01 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8001).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 2769|app: 0|req: 13/42] 127.0.0.1 () {42 vars in 754 bytes} [Tue Jan 23 18:16:43 2018] GET /article/1 => generated 10363 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2770|app: 0|req: 7/43] 127.0.0.1 () {44 vars in 785 bytes} [Tue Jan 23 18:16:52 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2771|app: 0|req: 8/44] 127.0.0.1 () {44 vars in 785 bytes} [Tue Jan 23 18:16:53 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2769|app: 0|req: 14/45] 127.0.0.1 () {44 vars in 785 bytes} [Tue Jan 23 18:16:55 2018] GET /article/1 => generated 10363 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2768|app: 0|req: 17/46] 127.0.0.1 () {44 vars in 785 bytes} [Tue Jan 23 18:16:56 2018] GET /article/1 => generated 10370 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2770|app: 0|req: 8/47] 127.0.0.1 () {44 vars in 785 bytes} [Tue Jan 23 18:16:57 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2771|app: 0|req: 9/48] 127.0.0.1 () {44 vars in 785 bytes} [Tue Jan 23 18:16:58 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2769|app: 0|req: 15/49] 127.0.0.1 () {44 vars in 785 bytes} [Tue Jan 23 18:16:59 2018] GET /article/1 => generated 10363 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2768|app: 0|req: 18/50] 127.0.0.1 () {44 vars in 785 bytes} [Tue Jan 23 18:17:01 2018] GET /article/1 => generated 10370 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2770|app: 0|req: 9/51] 127.0.0.1 () {44 vars in 785 bytes} [Tue Jan 23 18:17:02 2018] GET /article/1 => generated 10357 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2768|app: 0|req: 19/52] 127.0.0.1 () {44 vars in 785 bytes} [Tue Jan 23 18:18:51 2018] GET /article/1 => generated 10370 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2769|app: 0|req: 16/53] 127.0.0.1 () {44 vars in 785 bytes} [Tue Jan 23 18:18:51 2018] GET /article/1 => generated 10363 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+...brutally killing workers...
+Gracefully killing worker 3 (pid: 2770)...
+Gracefully killing worker 4 (pid: 2771)...
+Gracefully killing worker 2 (pid: 2769)...
+Gracefully killing worker 1 (pid: 2768)...
+worker 1 buried after 5 seconds
+worker 2 buried after 12 seconds
+worker 3 buried after 12 seconds
+worker 4 buried after 12 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/blog
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (:8001)
+running /home/ubuntu/blog/venv/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Jan 23 18:19:33 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-31-generic #34~16.04.1-Ubuntu SMP Fri Jan 19 17:11:01 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x98f130
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 493320 bytes (481 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x98f130 pid: 2766 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 2766)
+spawned uWSGI worker 1 (pid: 3222, cores: 1)
+spawned uWSGI worker 2 (pid: 3223, cores: 1)
+spawned uWSGI worker 3 (pid: 3224, cores: 1)
+spawned uWSGI worker 4 (pid: 3225, cores: 1)
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Jan 23 02:24:08 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-31-generic #34~16.04.1-Ubuntu SMP Fri Jan 19 17:11:01 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x10211a0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 493320 bytes (481 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0x10211a0 pid: 2280 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2280)
+spawned uWSGI worker 1 (pid: 2291, cores: 1)
+spawned uWSGI worker 2 (pid: 2292, cores: 1)
+spawned uWSGI worker 3 (pid: 2293, cores: 1)
+spawned uWSGI worker 4 (pid: 2294, cores: 1)
+[pid: 2292|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 672 bytes} [Tue Jan 23 18:24:21 2018] GET /homepage => generated 7306 bytes in 259 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2291|app: 0|req: 1/2] 127.0.0.1 () {42 vars in 752 bytes} [Tue Jan 23 18:24:28 2018] GET /homepage => generated 7306 bytes in 376 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2292|app: 0|req: 2/3] 127.0.0.1 () {40 vars in 723 bytes} [Tue Jan 23 18:24:29 2018] GET /favicon.ico => generated 85 bytes in 25 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2291|app: 0|req: 2/4] 127.0.0.1 () {44 vars in 795 bytes} [Tue Jan 23 18:24:49 2018] GET /article/1 => generated 10367 bytes in 682 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2292|app: 0|req: 3/5] 127.0.0.1 () {44 vars in 794 bytes} [Tue Jan 23 18:25:00 2018] GET /homepage => generated 7306 bytes in 28 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2291|app: 0|req: 3/6] 127.0.0.1 () {44 vars in 795 bytes} [Tue Jan 23 18:25:03 2018] GET /article/1 => generated 10367 bytes in 73 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2292|app: 0|req: 4/7] 127.0.0.1 () {44 vars in 794 bytes} [Tue Jan 23 18:25:07 2018] GET /homepage => generated 7306 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2294|app: 0|req: 1/8] 127.0.0.1 () {42 vars in 752 bytes} [Tue Jan 23 18:25:33 2018] GET /homepage => generated 7306 bytes in 623 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2292|app: 0|req: 5/9] 127.0.0.1 () {40 vars in 723 bytes} [Tue Jan 23 18:25:35 2018] GET /favicon.ico => generated 85 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2293|app: 0|req: 1/10] 127.0.0.1 () {44 vars in 795 bytes} [Tue Jan 23 18:25:39 2018] GET /article/1 => generated 10367 bytes in 286 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2292|app: 0|req: 6/11] 127.0.0.1 () {42 vars in 748 bytes} [Tue Jan 23 18:25:46 2018] GET /admin/ => generated 7024 bytes in 444 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 2291|app: 0|req: 4/12] 127.0.0.1 () {44 vars in 819 bytes} [Tue Jan 23 18:25:47 2018] GET /admin/article/article/ => generated 4667 bytes in 221 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2292|app: 0|req: 7/13] 127.0.0.1 () {42 vars in 722 bytes} [Tue Jan 23 18:25:48 2018] GET /admin/jsi18n/ => generated 7678 bytes in 65 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2291|app: 0|req: 5/14] 127.0.0.1 () {44 vars in 853 bytes} [Tue Jan 23 18:25:49 2018] GET /admin/article/article/1/change/ => generated 17468 bytes in 84 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 2292|app: 0|req: 8/15] 127.0.0.1 () {42 vars in 731 bytes} [Tue Jan 23 18:25:49 2018] GET /admin/jsi18n/ => generated 7678 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2292|app: 0|req: 9/16] 127.0.0.1 () {46 vars in 884 bytes} [Tue Jan 23 18:27:50 2018] GET /admin/article/article/1/change/ => generated 17468 bytes in 43 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 2291|app: 0|req: 6/17] 127.0.0.1 () {44 vars in 762 bytes} [Tue Jan 23 18:27:50 2018] GET /admin/jsi18n/ => generated 7678 bytes in 23 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2292|app: 0|req: 10/18] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 18:28:01 2018] GET /article/1 => generated 10367 bytes in 33 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2293|app: 0|req: 2/19] 127.0.0.1 () {44 vars in 828 bytes} [Tue Jan 23 18:28:19 2018] GET /admin/article/ => generated 2823 bytes in 229 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 2292|app: 0|req: 11/20] 127.0.0.1 () {44 vars in 827 bytes} [Tue Jan 23 18:29:21 2018] GET /admin/article/article/ => generated 4667 bytes in 32 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2291|app: 0|req: 7/21] 127.0.0.1 () {42 vars in 722 bytes} [Tue Jan 23 18:29:21 2018] GET /admin/jsi18n/ => generated 7678 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2293|app: 0|req: 3/22] 127.0.0.1 () {44 vars in 853 bytes} [Tue Jan 23 18:29:22 2018] GET /admin/article/article/1/change/ => generated 17468 bytes in 44 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 2292|app: 0|req: 12/23] 127.0.0.1 () {42 vars in 731 bytes} [Tue Jan 23 18:29:22 2018] GET /admin/jsi18n/ => generated 7678 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2292|app: 0|req: 13/24] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 18:30:42 2018] GET /article/1 => generated 10367 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2291|app: 0|req: 8/25] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 18:30:50 2018] GET /article/1 => generated 10367 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2293|app: 0|req: 4/26] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 18:30:52 2018] GET /article/1 => generated 10367 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2294|app: 0|req: 2/27] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 18:30:56 2018] GET /article/1 => generated 10367 bytes in 34 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2292|app: 0|req: 14/28] 127.0.0.1 () {44 vars in 794 bytes} [Tue Jan 23 18:30:58 2018] GET /homepage => generated 7306 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2293|app: 0|req: 5/29] 127.0.0.1 () {44 vars in 795 bytes} [Tue Jan 23 18:31:00 2018] GET /article/1 => generated 10367 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+Gracefully killing worker 2 (pid: 2292)...
+Gracefully killing worker 1 (pid: 2291)...
+Gracefully killing worker 3 (pid: 2293)...
+Gracefully killing worker 4 (pid: 2294)...
+...brutally killing workers...
+worker 1 buried after 3 seconds
+worker 2 buried after 3 seconds
+worker 3 buried after 3 seconds
+worker 4 buried after 3 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/blog
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (:8001)
+running /home/ubuntu/blog/venv/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Jan 23 18:31:39 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-31-generic #34~16.04.1-Ubuntu SMP Fri Jan 19 17:11:01 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xd490c0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 493320 bytes (481 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 11 seconds on interpreter 0xd490c0 pid: 2280 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 2280)
+spawned uWSGI worker 1 (pid: 2803, cores: 1)
+spawned uWSGI worker 2 (pid: 2804, cores: 1)
+spawned uWSGI worker 3 (pid: 2805, cores: 1)
+spawned uWSGI worker 4 (pid: 2806, cores: 1)
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Jan 23 02:36:24 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-31-generic #34~16.04.1-Ubuntu SMP Fri Jan 19 17:11:01 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x154c210
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 493320 bytes (481 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0x154c210 pid: 2306 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2306)
+spawned uWSGI worker 1 (pid: 2308, cores: 1)
+spawned uWSGI worker 2 (pid: 2309, cores: 1)
+spawned uWSGI worker 3 (pid: 2310, cores: 1)
+spawned uWSGI worker 4 (pid: 2311, cores: 1)
+[pid: 2309|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 752 bytes} [Tue Jan 23 18:36:51 2018] GET /homepage => generated 7306 bytes in 261 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2308|app: 0|req: 1/2] 127.0.0.1 () {40 vars in 723 bytes} [Tue Jan 23 18:36:53 2018] GET /favicon.ico => generated 85 bytes in 97 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2310|app: 0|req: 1/3] 127.0.0.1 () {44 vars in 795 bytes} [Tue Jan 23 18:36:55 2018] GET /article/1 => generated 10367 bytes in 913 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+Tue Jan 23 18:36:57 2018 - *** /home/ubuntu/blog has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 2308)...
+Gracefully killing worker 2 (pid: 2309)...
+Gracefully killing worker 4 (pid: 2311)...
+Gracefully killing worker 3 (pid: 2310)...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/blog
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (:8001)
+running /home/ubuntu/blog/venv/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Jan 23 18:37:00 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-31-generic #34~16.04.1-Ubuntu SMP Fri Jan 19 17:11:01 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xf3b130
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 493320 bytes (481 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0xf3b130 pid: 2306 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 2306)
+spawned uWSGI worker 1 (pid: 2425, cores: 1)
+spawned uWSGI worker 2 (pid: 2426, cores: 1)
+spawned uWSGI worker 3 (pid: 2427, cores: 1)
+spawned uWSGI worker 4 (pid: 2428, cores: 1)
+[pid: 2425|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 794 bytes} [Tue Jan 23 18:37:06 2018] GET /homepage => generated 7306 bytes in 54 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2426|app: 0|req: 1/2] 127.0.0.1 () {44 vars in 795 bytes} [Tue Jan 23 18:37:08 2018] GET /article/1 => generated 10367 bytes in 81 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+Tue Jan 23 18:37:08 2018 - *** /home/ubuntu/blog has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 2425)...
+Gracefully killing worker 3 (pid: 2427)...
+Gracefully killing worker 4 (pid: 2428)...
+Gracefully killing worker 2 (pid: 2426)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/blog
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (:8001)
+running /home/ubuntu/blog/venv/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Jan 23 18:37:10 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-31-generic #34~16.04.1-Ubuntu SMP Fri Jan 19 17:11:01 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x256e130
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 493320 bytes (481 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x256e130 pid: 2306 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 2306)
+spawned uWSGI worker 1 (pid: 2430, cores: 1)
+spawned uWSGI worker 2 (pid: 2431, cores: 1)
+spawned uWSGI worker 3 (pid: 2432, cores: 1)
+spawned uWSGI worker 4 (pid: 2433, cores: 1)
+[pid: 2432|app: 0|req: 1/1] 127.0.0.1 () {46 vars in 826 bytes} [Tue Jan 23 18:37:12 2018] GET /article/1 => generated 10367 bytes in 240 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+Tue Jan 23 18:37:13 2018 - *** /home/ubuntu/blog has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 2430)...
+Gracefully killing worker 2 (pid: 2431)...
+Gracefully killing worker 4 (pid: 2433)...
+Gracefully killing worker 3 (pid: 2432)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/blog
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (:8001)
+running /home/ubuntu/blog/venv/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Jan 23 18:37:14 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-31-generic #34~16.04.1-Ubuntu SMP Fri Jan 19 17:11:01 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xd64130
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 493320 bytes (481 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xd64130 pid: 2306 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 2306)
+spawned uWSGI worker 1 (pid: 2435, cores: 1)
+spawned uWSGI worker 2 (pid: 2436, cores: 1)
+spawned uWSGI worker 3 (pid: 2437, cores: 1)
+spawned uWSGI worker 4 (pid: 2438, cores: 1)
+...brutally killing workers...
+worker 2 buried after 0 seconds
+worker 3 buried after 0 seconds
+worker 4 buried after 0 seconds
+Gracefully killing worker 1 (pid: 2435)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/blog
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (:8001)
+running /home/ubuntu/blog/venv/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Jan 23 18:37:49 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-31-generic #34~16.04.1-Ubuntu SMP Fri Jan 19 17:11:01 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x21e5130
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 493320 bytes (481 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x21e5130 pid: 2306 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 2306)
+spawned uWSGI worker 1 (pid: 2618, cores: 1)
+spawned uWSGI worker 2 (pid: 2619, cores: 1)
+spawned uWSGI worker 3 (pid: 2620, cores: 1)
+spawned uWSGI worker 4 (pid: 2621, cores: 1)
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Jan 30 08:13:17 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-31-generic #34~16.04.1-Ubuntu SMP Fri Jan 19 17:11:01 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1eb0210
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 493320 bytes (481 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 10 seconds on interpreter 0x1eb0210 pid: 53760 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 53760)
+spawned uWSGI worker 1 (pid: 53765, cores: 1)
+spawned uWSGI worker 2 (pid: 53766, cores: 1)
+spawned uWSGI worker 3 (pid: 53767, cores: 1)
+spawned uWSGI worker 4 (pid: 53768, cores: 1)
+[pid: 53765|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 748 bytes} [Wed Jan 31 00:13:30 2018] GET /admin/ => generated 0 bytes in 1139 msecs (HTTP/1.1 302) 7 headers in 336 bytes (1 switches on core 0)
+[pid: 53767|app: 0|req: 1/2] 127.0.0.1 () {42 vars in 741 bytes} [Wed Jan 31 00:13:31 2018] GET /admin/login/?next=/admin/ => generated 1857 bytes in 1180 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 53765|app: 0|req: 2/3] 127.0.0.1 () {40 vars in 679 bytes} [Wed Jan 31 00:13:35 2018] GET /favicon.ico => generated 85 bytes in 26 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 53767|app: 0|req: 2/4] 127.0.0.1 () {48 vars in 916 bytes} [Wed Jan 31 00:13:41 2018] POST /admin/login/?next=/admin/ => generated 1987 bytes in 412 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 53765|app: 0|req: 3/5] 127.0.0.1 () {48 vars in 916 bytes} [Wed Jan 31 00:14:49 2018] POST /admin/login/?next=/admin/ => generated 1987 bytes in 552 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 53767|app: 0|req: 3/6] 127.0.0.1 () {48 vars in 916 bytes} [Wed Jan 31 00:16:24 2018] POST /admin/login/?next=/admin/ => generated 1987 bytes in 140 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 53765|app: 0|req: 4/7] 127.0.0.1 () {48 vars in 916 bytes} [Wed Jan 31 00:16:31 2018] POST /admin/login/?next=/admin/ => generated 1987 bytes in 129 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 53765|app: 0|req: 5/8] 127.0.0.1 () {48 vars in 916 bytes} [Wed Jan 31 00:23:59 2018] POST /admin/login/?next=/admin/ => generated 0 bytes in 420 msecs (HTTP/1.1 302) 9 headers in 531 bytes (1 switches on core 0)
+[pid: 53767|app: 0|req: 4/9] 127.0.0.1 () {44 vars in 806 bytes} [Wed Jan 31 00:24:00 2018] GET /admin/ => generated 4001 bytes in 61 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 53765|app: 0|req: 6/10] 127.0.0.1 () {44 vars in 819 bytes} [Wed Jan 31 00:24:03 2018] GET /admin/article/article/ => generated 3278 bytes in 74 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 53767|app: 0|req: 5/11] 127.0.0.1 () {42 vars in 722 bytes} [Wed Jan 31 00:24:03 2018] GET /admin/jsi18n/ => generated 7678 bytes in 114 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 53765|app: 0|req: 7/12] 127.0.0.1 () {44 vars in 806 bytes} [Wed Jan 31 00:24:07 2018] GET /admin/ => generated 4001 bytes in 29 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 53767|app: 0|req: 6/13] 127.0.0.1 () {44 vars in 815 bytes} [Wed Jan 31 00:24:08 2018] GET /admin/article/image/ => generated 3264 bytes in 30 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 53765|app: 0|req: 8/14] 127.0.0.1 () {42 vars in 720 bytes} [Wed Jan 31 00:24:08 2018] GET /admin/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 53767|app: 0|req: 7/15] 127.0.0.1 () {44 vars in 806 bytes} [Wed Jan 31 00:24:09 2018] GET /admin/ => generated 4001 bytes in 18 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 53765|app: 0|req: 9/16] 127.0.0.1 () {44 vars in 819 bytes} [Wed Jan 31 00:24:10 2018] GET /admin/article/article/ => generated 3278 bytes in 13 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 53767|app: 0|req: 8/17] 127.0.0.1 () {42 vars in 722 bytes} [Wed Jan 31 00:24:10 2018] GET /admin/jsi18n/ => generated 7678 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 53766|app: 0|req: 1/18] 127.0.0.1 () {44 vars in 843 bytes} [Wed Jan 31 00:24:12 2018] GET /admin/article/article/add/ => generated 7990 bytes in 543 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 53765|app: 0|req: 10/19] 127.0.0.1 () {42 vars in 726 bytes} [Wed Jan 31 00:24:13 2018] GET /admin/jsi18n/ => generated 7678 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 53767|app: 0|req: 9/20] 127.0.0.1 () {48 vars in 1068 bytes} [Wed Jan 31 00:25:49 2018] POST /admin/article/article/add/ => generated 17381 bytes in 156 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 53765|app: 0|req: 11/21] 127.0.0.1 () {42 vars in 726 bytes} [Wed Jan 31 00:25:49 2018] GET /admin/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 53766|app: 0|req: 2/22] 127.0.0.1 () {48 vars in 1072 bytes} [Wed Jan 31 00:26:44 2018] POST /admin/article/article/add/ => generated 0 bytes in 111 msecs (HTTP/1.1 302) 8 headers in 620 bytes (1 switches on core 0)
+[pid: 53765|app: 0|req: 12/23] 127.0.0.1 () {44 vars in 1170 bytes} [Wed Jan 31 00:26:44 2018] GET /admin/article/article/add/ => generated 8222 bytes in 50 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 53767|app: 0|req: 10/24] 127.0.0.1 () {42 vars in 726 bytes} [Wed Jan 31 00:26:44 2018] GET /admin/jsi18n/ => generated 7678 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 53765|app: 0|req: 13/25] 127.0.0.1 () {48 vars in 1070 bytes} [Wed Jan 31 00:27:32 2018] POST /admin/article/article/add/ => generated 16075 bytes in 46 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 53767|app: 0|req: 11/26] 127.0.0.1 () {42 vars in 726 bytes} [Wed Jan 31 00:27:32 2018] GET /admin/jsi18n/ => generated 7678 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 53766|app: 0|req: 3/27] 127.0.0.1 () {48 vars in 1070 bytes} [Wed Jan 31 00:27:36 2018] POST /admin/article/article/add/ => generated 0 bytes in 46 msecs (HTTP/1.1 302) 8 headers in 509 bytes (1 switches on core 0)
+[pid: 53765|app: 0|req: 14/28] 127.0.0.1 () {44 vars in 1055 bytes} [Wed Jan 31 00:27:36 2018] GET /admin/article/article/ => generated 4848 bytes in 76 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 53767|app: 0|req: 12/29] 127.0.0.1 () {42 vars in 722 bytes} [Wed Jan 31 00:27:36 2018] GET /admin/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 53766|app: 0|req: 4/30] 127.0.0.1 () {42 vars in 736 bytes} [Wed Jan 31 00:27:46 2018] GET / => generated 1791 bytes in 42 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 53768|app: 0|req: 1/31] 127.0.0.1 () {44 vars in 785 bytes} [Wed Jan 31 00:27:52 2018] GET /homepage => generated 7306 bytes in 716 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 53766|app: 0|req: 5/32] 127.0.0.1 () {44 vars in 795 bytes} [Wed Jan 31 00:28:16 2018] GET /article/1 => generated 10367 bytes in 1487 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 53765|app: 0|req: 15/33] 127.0.0.1 () {44 vars in 803 bytes} [Wed Jan 31 00:28:51 2018] GET /admin/ => generated 4636 bytes in 150 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 53767|app: 0|req: 13/34] 127.0.0.1 () {44 vars in 815 bytes} [Wed Jan 31 00:30:07 2018] GET /admin/article/image/ => generated 3264 bytes in 117 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 53765|app: 0|req: 16/35] 127.0.0.1 () {42 vars in 720 bytes} [Wed Jan 31 00:30:07 2018] GET /admin/jsi18n/ => generated 7678 bytes in 216 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 53767|app: 0|req: 14/36] 127.0.0.1 () {44 vars in 837 bytes} [Wed Jan 31 00:30:09 2018] GET /admin/article/image/add/ => generated 4468 bytes in 240 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 53765|app: 0|req: 17/37] 127.0.0.1 () {42 vars in 724 bytes} [Wed Jan 31 00:30:09 2018] GET /admin/jsi18n/ => generated 7678 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 53766|app: 0|req: 6/38] 127.0.0.1 () {48 vars in 1068 bytes} [Wed Jan 31 00:30:24 2018] POST /admin/article/image/add/ => generated 0 bytes in 87 msecs (HTTP/1.1 302) 8 headers in 501 bytes (1 switches on core 0)
+[pid: 53765|app: 0|req: 18/39] 127.0.0.1 () {44 vars in 1043 bytes} [Wed Jan 31 00:30:24 2018] GET /admin/article/image/ => generated 4584 bytes in 27 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 53767|app: 0|req: 15/40] 127.0.0.1 () {42 vars in 720 bytes} [Wed Jan 31 00:30:24 2018] GET /admin/jsi18n/ => generated 7678 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 53765|app: 0|req: 19/41] 127.0.0.1 () {44 vars in 847 bytes} [Wed Jan 31 00:30:26 2018] GET /admin/article/image/1/change/ => generated 4793 bytes in 23 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 53767|app: 0|req: 16/42] 127.0.0.1 () {42 vars in 729 bytes} [Wed Jan 31 00:30:26 2018] GET /admin/jsi18n/ => generated 7678 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 53766|app: 0|req: 7/43] 127.0.0.1 () {44 vars in 847 bytes} [Wed Jan 31 00:30:29 2018] GET /admin/article/image/1/change/ => generated 4793 bytes in 22 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 53765|app: 0|req: 20/44] 127.0.0.1 () {44 vars in 856 bytes} [Wed Jan 31 00:30:32 2018] GET /admin/article/image/1/delete/ => generated 3235 bytes in 105 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 53767|app: 0|req: 17/45] 127.0.0.1 () {48 vars in 971 bytes} [Wed Jan 31 00:30:33 2018] POST /admin/article/image/1/delete/ => generated 0 bytes in 56 msecs (HTTP/1.1 302) 8 headers in 452 bytes (1 switches on core 0)
+[pid: 53765|app: 0|req: 21/46] 127.0.0.1 () {44 vars in 999 bytes} [Wed Jan 31 00:30:33 2018] GET /admin/article/image/ => generated 3406 bytes in 15 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 53767|app: 0|req: 18/47] 127.0.0.1 () {42 vars in 720 bytes} [Wed Jan 31 00:30:33 2018] GET /admin/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 53766|app: 0|req: 8/48] 127.0.0.1 () {44 vars in 801 bytes} [Wed Jan 31 00:30:36 2018] GET /admin/ => generated 5182 bytes in 151 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
