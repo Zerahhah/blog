@@ -28,3 +28,11 @@ class Image(models.Model):
 
     def __unicode__(self):
         return self.title
+
+
+class CountView(models.Model):
+    the_date = models.DateField(default=timezone.now , verbose_name=u'日期')
+    count_views = models.IntegerField(default='1',verbose_name=u'总浏览')
+
+    def __unicode__(self):
+        return self.count_views
