@@ -21,7 +21,7 @@ from django.conf.urls import url
 from django.conf.urls.static import static
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('zzladmini/', admin.site.urls),
     url(r'^$',welcome),
     url(r'^homepage$',homepage),
     url(r'^article/(\d{1,2})$',article),

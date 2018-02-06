@@ -2202,3 +2202,1610 @@ spawned uWSGI worker 4 (pid: 15010, cores: 1)
 [pid: 15007|app: 0|req: 9/46] 127.0.0.1 () {44 vars in 853 bytes} [Thu Feb  1 23:10:49 2018] GET /admin/article/article/2/change/ => generated 16144 bytes in 170 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
 [pid: 15009|app: 0|req: 19/47] 127.0.0.1 () {42 vars in 731 bytes} [Thu Feb  1 23:10:49 2018] GET /admin/jsi18n/ => generated 7678 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
 [pid: 15008|app: 0|req: 17/48] 127.0.0.1 () {44 vars in 828 bytes} [Thu Feb  1 23:11:47 2018] GET /admin/article/ => generated 3243 bytes in 20 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+...brutally killing workers...
+Gracefully killing worker 1 (pid: 15007)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/blog
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (:8001)
+running /home/ubuntu/blog/venv/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Feb  1 23:31:50 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-32-generic #35~16.04.1-Ubuntu SMP Thu Jan 25 10:13:43 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1ae70a0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 493320 bytes (481 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 6 seconds on interpreter 0x1ae70a0 pid: 15005 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 15005)
+spawned uWSGI worker 1 (pid: 15571, cores: 1)
+spawned uWSGI worker 2 (pid: 15572, cores: 1)
+spawned uWSGI worker 3 (pid: 15573, cores: 1)
+spawned uWSGI worker 4 (pid: 15574, cores: 1)
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Feb  2 03:05:30 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-32-generic #35~16.04.1-Ubuntu SMP Thu Jan 25 10:13:43 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x104c210
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 493320 bytes (481 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 7 seconds on interpreter 0x104c210 pid: 3189 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3189)
+spawned uWSGI worker 1 (pid: 3206, cores: 1)
+spawned uWSGI worker 2 (pid: 3207, cores: 1)
+spawned uWSGI worker 3 (pid: 3208, cores: 1)
+spawned uWSGI worker 4 (pid: 3209, cores: 1)
+[pid: 3208|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 748 bytes} [Fri Feb  2 19:05:58 2018] GET /admin/ => generated 7129 bytes in 2226 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 3206|app: 0|req: 1/2] 127.0.0.1 () {40 vars in 723 bytes} [Fri Feb  2 19:06:01 2018] GET /favicon.ico => generated 85 bytes in 77 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3208|app: 0|req: 2/3] 127.0.0.1 () {44 vars in 823 bytes} [Fri Feb  2 19:06:06 2018] GET /admin/article/countview/ => generated 4460 bytes in 151 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 3206|app: 0|req: 2/4] 127.0.0.1 () {42 vars in 724 bytes} [Fri Feb  2 19:06:06 2018] GET /admin/jsi18n/ => generated 7678 bytes in 152 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 3208|app: 0|req: 3/5] 127.0.0.1 () {44 vars in 859 bytes} [Fri Feb  2 19:06:10 2018] GET /admin/article/countview/8/change/ => generated 5112 bytes in 110 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 3206|app: 0|req: 3/6] 127.0.0.1 () {42 vars in 733 bytes} [Fri Feb  2 19:06:10 2018] GET /admin/jsi18n/ => generated 7678 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 3207|app: 0|req: 1/7] 127.0.0.1 () {44 vars in 814 bytes} [Fri Feb  2 19:06:12 2018] GET /admin/ => generated 7129 bytes in 141 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 3208|app: 0|req: 4/8] 127.0.0.1 () {44 vars in 819 bytes} [Fri Feb  2 19:06:13 2018] GET /admin/article/article/ => generated 4667 bytes in 135 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 3206|app: 0|req: 4/9] 127.0.0.1 () {42 vars in 722 bytes} [Fri Feb  2 19:06:14 2018] GET /admin/jsi18n/ => generated 7678 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 3207|app: 0|req: 2/10] 127.0.0.1 () {44 vars in 853 bytes} [Fri Feb  2 19:06:15 2018] GET /admin/article/article/1/change/ => generated 17484 bytes in 256 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 3208|app: 0|req: 5/11] 127.0.0.1 () {42 vars in 731 bytes} [Fri Feb  2 19:06:16 2018] GET /admin/jsi18n/ => generated 7678 bytes in 16 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 3206|app: 0|req: 5/12] 127.0.0.1 () {44 vars in 844 bytes} [Fri Feb  2 19:06:31 2018] GET /admin/article/article/ => generated 4667 bytes in 359 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 3208|app: 0|req: 6/13] 127.0.0.1 () {42 vars in 722 bytes} [Fri Feb  2 19:06:32 2018] GET /admin/jsi18n/ => generated 7678 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 3207|app: 0|req: 3/14] 127.0.0.1 () {44 vars in 843 bytes} [Fri Feb  2 19:06:33 2018] GET /admin/article/article/add/ => generated 7990 bytes in 32 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 3208|app: 0|req: 7/15] 127.0.0.1 () {42 vars in 726 bytes} [Fri Feb  2 19:06:33 2018] GET /admin/jsi18n/ => generated 7678 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 3206|app: 0|req: 6/16] 127.0.0.1 () {48 vars in 1072 bytes} [Fri Feb  2 19:07:09 2018] POST /admin/article/article/add/ => generated 17381 bytes in 323 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 3208|app: 0|req: 8/17] 127.0.0.1 () {42 vars in 726 bytes} [Fri Feb  2 19:07:09 2018] GET /admin/jsi18n/ => generated 7678 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 3207|app: 0|req: 4/18] 127.0.0.1 () {48 vars in 1072 bytes} [Fri Feb  2 19:07:43 2018] POST /admin/article/article/add/ => generated 0 bytes in 455 msecs (HTTP/1.1 302) 8 headers in 509 bytes (1 switches on core 0)
+[pid: 3208|app: 0|req: 9/19] 127.0.0.1 () {44 vars in 1055 bytes} [Fri Feb  2 19:07:43 2018] GET /admin/article/article/ => generated 5083 bytes in 38 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 3206|app: 0|req: 7/20] 127.0.0.1 () {42 vars in 722 bytes} [Fri Feb  2 19:07:43 2018] GET /admin/jsi18n/ => generated 7678 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 3207|app: 0|req: 5/21] 127.0.0.1 () {44 vars in 803 bytes} [Fri Feb  2 19:07:45 2018] GET /admin/ => generated 7129 bytes in 65 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 3208|app: 0|req: 10/22] 127.0.0.1 () {42 vars in 752 bytes} [Fri Feb  2 19:07:51 2018] GET /homepage => generated 7618 bytes in 22 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 3206|app: 0|req: 8/23] 127.0.0.1 () {44 vars in 795 bytes} [Fri Feb  2 19:09:01 2018] GET /article/1 => generated 10434 bytes in 888 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 3208|app: 0|req: 11/24] 127.0.0.1 () {44 vars in 794 bytes} [Fri Feb  2 19:09:48 2018] GET /homepage => generated 7618 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 3208|app: 0|req: 12/25] 127.0.0.1 () {44 vars in 795 bytes} [Fri Feb  2 19:10:10 2018] GET /article/2 => generated 9153 bytes in 235 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 3209|app: 0|req: 1/26] 127.0.0.1 () {44 vars in 823 bytes} [Fri Feb  2 19:10:44 2018] GET /admin/article/countview/ => generated 4700 bytes in 2502 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 3208|app: 0|req: 13/27] 127.0.0.1 () {42 vars in 724 bytes} [Fri Feb  2 19:10:47 2018] GET /admin/jsi18n/ => generated 7678 bytes in 213 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 3206|app: 0|req: 9/28] 127.0.0.1 () {44 vars in 859 bytes} [Fri Feb  2 19:10:50 2018] GET /admin/article/countview/9/change/ => generated 5112 bytes in 137 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 3208|app: 0|req: 14/29] 127.0.0.1 () {42 vars in 733 bytes} [Fri Feb  2 19:10:50 2018] GET /admin/jsi18n/ => generated 7678 bytes in 92 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 3207|app: 0|req: 6/30] 127.0.0.1 () {44 vars in 823 bytes} [Fri Feb  2 19:10:53 2018] GET /admin/article/countview/ => generated 4700 bytes in 116 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 3208|app: 0|req: 15/31] 127.0.0.1 () {44 vars in 859 bytes} [Fri Feb  2 19:10:54 2018] GET /admin/article/countview/8/change/ => generated 5112 bytes in 120 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 3206|app: 0|req: 10/32] 127.0.0.1 () {42 vars in 733 bytes} [Fri Feb  2 19:10:54 2018] GET /admin/jsi18n/ => generated 7678 bytes in 34 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 3207|app: 0|req: 7/33] 127.0.0.1 () {44 vars in 823 bytes} [Fri Feb  2 19:10:56 2018] GET /admin/article/countview/ => generated 4700 bytes in 133 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 3208|app: 0|req: 16/34] 127.0.0.1 () {46 vars in 826 bytes} [Fri Feb  2 19:11:55 2018] GET /article/2 => generated 9153 bytes in 355 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 3206|app: 0|req: 11/35] 127.0.0.1 () {44 vars in 794 bytes} [Fri Feb  2 19:12:04 2018] GET /homepage => generated 7618 bytes in 74 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 3209|app: 0|req: 2/36] 127.0.0.1 () {44 vars in 795 bytes} [Fri Feb  2 19:12:06 2018] GET /article/2 => generated 9153 bytes in 182 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 3208|app: 0|req: 17/37] 127.0.0.1 () {46 vars in 826 bytes} [Fri Feb  2 19:12:25 2018] GET /article/2 => generated 9153 bytes in 153 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 3206|app: 0|req: 12/38] 127.0.0.1 () {46 vars in 826 bytes} [Fri Feb  2 19:12:40 2018] GET /article/2 => generated 9153 bytes in 138 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Gracefully killing worker 3 (pid: 3208)...
+Gracefully killing worker 1 (pid: 3206)...
+Gracefully killing worker 2 (pid: 3207)...
+Gracefully killing worker 4 (pid: 3209)...
+...gracefully killing workers...
+worker 1 buried after 7 seconds
+worker 2 buried after 7 seconds
+worker 3 buried after 7 seconds
+worker 4 buried after 7 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/blog
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (:8001)
+running /home/ubuntu/blog/venv/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Feb  2 19:17:46 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-32-generic #35~16.04.1-Ubuntu SMP Thu Jan 25 10:13:43 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x190a130
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 493320 bytes (481 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 11 seconds on interpreter 0x190a130 pid: 3189 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 3189)
+spawned uWSGI worker 1 (pid: 3697, cores: 1)
+spawned uWSGI worker 2 (pid: 3698, cores: 1)
+spawned uWSGI worker 3 (pid: 3699, cores: 1)
+spawned uWSGI worker 4 (pid: 3700, cores: 1)
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Feb  2 06:46:05 2018] ***
+compiled with version: 5.4.0 20160609 on 16 January 2018 05:25:28
+os: Linux-4.13.0-32-generic #35~16.04.1-Ubuntu SMP Thu Jan 25 10:13:43 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /home/ubuntu/blog/venv/bin/uwsgi
+chdir() to /home/ubuntu/blog
+your processes number limit is 7677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x26e81a0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 493320 bytes (481 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x26e81a0 pid: 3727 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3727)
+spawned uWSGI worker 1 (pid: 3729, cores: 1)
+spawned uWSGI worker 2 (pid: 3730, cores: 1)
+spawned uWSGI worker 3 (pid: 3731, cores: 1)
+spawned uWSGI worker 4 (pid: 3732, cores: 1)
+[pid: 3730|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 752 bytes} [Fri Feb  2 22:46:35 2018] GET /homepage => generated 7765 bytes in 509 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 3729|app: 0|req: 1/2] 127.0.0.1 () {40 vars in 723 bytes} [Fri Feb  2 22:46:38 2018] GET /favicon.ico => generated 85 bytes in 11288 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.12-debian (32bit) on [Fri Feb  2 23:13:43 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:01:56
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-52-78-ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/ubuntu/blog
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8001 fd 3
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 449460 bytes (438 KB) for 4 cores
+*** Operational MODE: preforking ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!
+no request plugin is loaded, you will not be able to manage requests.
+you may need to install the package for your language of choice, or simply load it with --plugin.
+!!!!!!!!!!! END OF WARNING !!!!!!!!!!
+spawned uWSGI master process (pid: 22355)
+spawned uWSGI worker 1 (pid: 22356, cores: 1)
+spawned uWSGI worker 2 (pid: 22357, cores: 1)
+spawned uWSGI worker 3 (pid: 22358, cores: 1)
+spawned uWSGI worker 4 (pid: 22359, cores: 1)
+Fri Feb  2 23:18:55 2018 - *** /home/ubuntu/blog has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 22356)...
+Gracefully killing worker 2 (pid: 22357)...
+Gracefully killing worker 3 (pid: 22358)...
+Gracefully killing worker 4 (pid: 22359)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/blog
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (:8001)
+running /usr/bin/uwsgi-core
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.12-debian (32bit) on [Fri Feb  2 23:18:56 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:01:56
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-52-78-ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/ubuntu/blog
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8001 fd 3
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 449460 bytes (438 KB) for 4 cores
+*** Operational MODE: preforking ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!
+no request plugin is loaded, you will not be able to manage requests.
+you may need to install the package for your language of choice, or simply load it with --plugin.
+!!!!!!!!!!! END OF WARNING !!!!!!!!!!
+gracefully (RE)spawned uWSGI master process (pid: 22355)
+spawned uWSGI worker 1 (pid: 22600, cores: 1)
+spawned uWSGI worker 2 (pid: 22601, cores: 1)
+spawned uWSGI worker 3 (pid: 22602, cores: 1)
+spawned uWSGI worker 4 (pid: 22603, cores: 1)
+Fri Feb  2 23:19:22 2018 - *** /home/ubuntu/blog has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 4 (pid: 22603)...
+Gracefully killing worker 3 (pid: 22602)...
+Gracefully killing worker 2 (pid: 22601)...
+Gracefully killing worker 1 (pid: 22600)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/blog
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (:8001)
+running /usr/bin/uwsgi-core
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.12-debian (32bit) on [Fri Feb  2 23:19:23 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:01:56
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-52-78-ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/ubuntu/blog
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8001 fd 3
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 449460 bytes (438 KB) for 4 cores
+*** Operational MODE: preforking ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!
+no request plugin is loaded, you will not be able to manage requests.
+you may need to install the package for your language of choice, or simply load it with --plugin.
+!!!!!!!!!!! END OF WARNING !!!!!!!!!!
+gracefully (RE)spawned uWSGI master process (pid: 22355)
+spawned uWSGI worker 1 (pid: 22636, cores: 1)
+spawned uWSGI worker 2 (pid: 22637, cores: 1)
+spawned uWSGI worker 3 (pid: 22638, cores: 1)
+spawned uWSGI worker 4 (pid: 22639, cores: 1)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/blog
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (:8001)
+running /usr/bin/uwsgi-core
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.12-debian (32bit) on [Fri Feb  2 23:20:05 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:01:56
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-52-78-ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/ubuntu/blog
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8001 fd 3
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 449460 bytes (438 KB) for 4 cores
+*** Operational MODE: preforking ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!
+no request plugin is loaded, you will not be able to manage requests.
+you may need to install the package for your language of choice, or simply load it with --plugin.
+!!!!!!!!!!! END OF WARNING !!!!!!!!!!
+gracefully (RE)spawned uWSGI master process (pid: 22355)
+spawned uWSGI worker 1 (pid: 22811, cores: 1)
+spawned uWSGI worker 2 (pid: 22812, cores: 1)
+spawned uWSGI worker 3 (pid: 22813, cores: 1)
+spawned uWSGI worker 4 (pid: 22814, cores: 1)
+*** Starting uWSGI 2.0.12-debian (32bit) on [Fri Feb  2 23:22:45 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:01:56
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-52-78-ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/ubuntu/blog
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8001 fd 3
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 449460 bytes (438 KB) for 4 cores
+*** Operational MODE: preforking ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!
+no request plugin is loaded, you will not be able to manage requests.
+you may need to install the package for your language of choice, or simply load it with --plugin.
+!!!!!!!!!!! END OF WARNING !!!!!!!!!!
+spawned uWSGI master process (pid: 1412)
+spawned uWSGI worker 1 (pid: 1413, cores: 1)
+spawned uWSGI worker 2 (pid: 1414, cores: 1)
+spawned uWSGI worker 3 (pid: 1415, cores: 1)
+spawned uWSGI worker 4 (pid: 1416, cores: 1)
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+...brutally killing workers...
+worker 1 buried after 0 seconds
+worker 2 buried after 0 seconds
+worker 3 buried after 0 seconds
+worker 4 buried after 0 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/blog
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (:8001)
+running /usr/bin/uwsgi-core
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.12-debian (32bit) on [Fri Feb  2 23:37:20 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:01:56
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-52-78-ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/ubuntu/blog
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8001 fd 3
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 449460 bytes (438 KB) for 4 cores
+*** Operational MODE: preforking ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!
+no request plugin is loaded, you will not be able to manage requests.
+you may need to install the package for your language of choice, or simply load it with --plugin.
+!!!!!!!!!!! END OF WARNING !!!!!!!!!!
+gracefully (RE)spawned uWSGI master process (pid: 1412)
+spawned uWSGI worker 1 (pid: 2340, cores: 1)
+spawned uWSGI worker 2 (pid: 2341, cores: 1)
+spawned uWSGI worker 3 (pid: 2342, cores: 1)
+spawned uWSGI worker 4 (pid: 2343, cores: 1)
+*** Starting uWSGI 2.0.12-debian (32bit) on [Fri Feb  2 23:48:09 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:01:56
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-52-78-ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/ubuntu/blog
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8001 fd 3
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 449460 bytes (438 KB) for 4 cores
+*** Operational MODE: preforking ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!
+no request plugin is loaded, you will not be able to manage requests.
+you may need to install the package for your language of choice, or simply load it with --plugin.
+!!!!!!!!!!! END OF WARNING !!!!!!!!!!
+spawned uWSGI master process (pid: 1783)
+spawned uWSGI worker 1 (pid: 1784, cores: 1)
+spawned uWSGI worker 2 (pid: 1785, cores: 1)
+spawned uWSGI worker 3 (pid: 1786, cores: 1)
+spawned uWSGI worker 4 (pid: 1787, cores: 1)
+-- unavailable modifier requested: 0 --
+-- unavailable modifier requested: 0 --
+*** Starting uWSGI 2.0.12-debian (32bit) on [Fri Feb  2 23:52:40 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:01:56
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-52-78-ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/ubuntu/blog
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8001).
+bind(): Address already in use [core/socket.c line 769]
+-- unavailable modifier requested: 0 --
+*** Starting uWSGI 2.0.12-debian (32bit) on [Sat Feb  3 00:00:05 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:01:56
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-52-78-ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/ubuntu/blog
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8000 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x9d50170
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 449460 bytes (438 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 9 seconds on interpreter 0x9d50170 pid: 2471 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2471)
+spawned uWSGI worker 1 (pid: 2489, cores: 1)
+spawned uWSGI worker 2 (pid: 2490, cores: 1)
+spawned uWSGI worker 3 (pid: 2491, cores: 1)
+spawned uWSGI worker 4 (pid: 2492, cores: 1)
+[pid: 2490|app: 0|req: 1/1] 175.11.51.131 () {42 vars in 712 bytes} [Sat Feb  3 00:00:14 2018] GET / => generated 1788 bytes in 314 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 1/2] 175.11.51.131 () {40 vars in 699 bytes} [Sat Feb  3 00:01:04 2018] GET /zzladmini => generated 0 bytes in 13 msecs (HTTP/1.1 301) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 1/3] 175.11.51.131 () {40 vars in 701 bytes} [Sat Feb  3 00:01:04 2018] GET /zzladmini/ => generated 0 bytes in 82 msecs (HTTP/1.1 302) 7 headers in 273 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 2/4] 175.11.51.131 () {40 vars in 746 bytes} [Sat Feb  3 00:01:04 2018] GET /zzladmini/login/?next=/zzladmini/ => generated 1873 bytes in 417 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 2/5] 175.11.51.131 () {52 vars in 1094 bytes} [Sat Feb  3 00:01:11 2018] POST /zzladmini/login/?next=/zzladmini/ => generated 0 bytes in 1045 msecs (HTTP/1.1 302) 9 headers in 535 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 3/6] 175.11.51.131 () {46 vars in 938 bytes} [Sat Feb  3 00:01:13 2018] GET /zzladmini/ => generated 4501 bytes in 152 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 3/7] 175.11.51.131 () {44 vars in 916 bytes} [Sat Feb  3 00:01:16 2018] GET /zzladmini/article/article/ => generated 3306 bytes in 223 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 4/8] 175.11.51.131 () {42 vars in 797 bytes} [Sat Feb  3 00:01:17 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 35 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 4/9] 175.11.51.131 () {44 vars in 940 bytes} [Sat Feb  3 00:01:36 2018] GET /zzladmini/article/article/add/ => generated 8018 bytes in 245 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 5/10] 175.11.51.131 () {42 vars in 801 bytes} [Sat Feb  3 00:01:36 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 6/11] 175.11.51.131 () {52 vars in 1204 bytes} [Sat Feb  3 00:03:56 2018] POST /zzladmini/article/article/add/ => generated 27 bytes in 587 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 5/12] 175.11.51.131 () {42 vars in 834 bytes} [Sat Feb  3 00:04:05 2018] GET /zzladmini/ => generated 4501 bytes in 73 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 7/13] 175.11.51.131 () {44 vars in 916 bytes} [Sat Feb  3 00:04:07 2018] GET /zzladmini/article/article/ => generated 3306 bytes in 37 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 6/14] 175.11.51.131 () {42 vars in 797 bytes} [Sat Feb  3 00:04:07 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 8/15] 175.11.51.131 () {44 vars in 940 bytes} [Sat Feb  3 00:04:11 2018] GET /zzladmini/article/article/add/ => generated 8018 bytes in 60 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 7/16] 175.11.51.131 () {42 vars in 801 bytes} [Sat Feb  3 00:04:11 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 9/17] 175.11.51.131 () {52 vars in 1202 bytes} [Sat Feb  3 00:04:53 2018] POST /zzladmini/article/article/add/ => generated 27 bytes in 83 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 8/18] 175.11.51.131 () {44 vars in 940 bytes} [Sat Feb  3 00:05:02 2018] GET /zzladmini/article/article/add/ => generated 8018 bytes in 43 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 10/19] 175.11.51.131 () {52 vars in 1202 bytes} [Sat Feb  3 00:05:07 2018] POST /zzladmini/article/article/add/ => generated 27 bytes in 47 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 9/20] 175.11.51.131 () {44 vars in 940 bytes} [Sat Feb  3 00:06:10 2018] GET /zzladmini/article/article/add/ => generated 8018 bytes in 46 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 11/21] 175.11.51.131 () {44 vars in 916 bytes} [Sat Feb  3 00:06:11 2018] GET /zzladmini/article/article/ => generated 3306 bytes in 21 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 10/22] 175.11.51.131 () {44 vars in 916 bytes} [Sat Feb  3 00:06:12 2018] GET /zzladmini/article/ => generated 3299 bytes in 30 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 12/23] 175.11.51.131 () {44 vars in 928 bytes} [Sat Feb  3 00:06:17 2018] GET /zzladmini/article/countview/ => generated 3325 bytes in 98 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 11/24] 175.11.51.131 () {42 vars in 798 bytes} [Sat Feb  3 00:06:17 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 13/25] 175.11.51.131 () {44 vars in 917 bytes} [Sat Feb  3 00:06:19 2018] GET /zzladmini/article/ => generated 3299 bytes in 14 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 12/26] 175.11.51.131 () {44 vars in 927 bytes} [Sat Feb  3 00:06:22 2018] GET /zzladmini/article/countview/ => generated 3325 bytes in 19 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 14/27] 175.11.51.131 () {42 vars in 798 bytes} [Sat Feb  3 00:06:22 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 13/28] 175.11.51.131 () {44 vars in 945 bytes} [Sat Feb  3 00:06:23 2018] GET /zzladmini/article/countview/add/ => generated 4920 bytes in 43 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 15/29] 175.11.51.131 () {42 vars in 802 bytes} [Sat Feb  3 00:06:23 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 14/30] 175.11.51.131 () {52 vars in 1205 bytes} [Sat Feb  3 00:06:26 2018] POST /zzladmini/article/countview/add/ => generated 0 bytes in 34 msecs (HTTP/1.1 302) 8 headers in 635 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 16/31] 175.11.51.131 () {46 vars in 1317 bytes} [Sat Feb  3 00:06:26 2018] GET /zzladmini/article/countview/1/change/ => generated 5375 bytes in 34 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 15/32] 175.11.51.131 () {42 vars in 807 bytes} [Sat Feb  3 00:06:26 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 17/33] 175.11.51.131 () {44 vars in 926 bytes} [Sat Feb  3 00:06:30 2018] GET /zzladmini/article/ => generated 3299 bytes in 20 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 16/34] 175.11.51.131 () {44 vars in 923 bytes} [Sat Feb  3 00:06:31 2018] GET /zzladmini/article/article/ => generated 3306 bytes in 17 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 18/35] 175.11.51.131 () {42 vars in 796 bytes} [Sat Feb  3 00:06:31 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 17/36] 175.11.51.131 () {44 vars in 939 bytes} [Sat Feb  3 00:06:32 2018] GET /zzladmini/article/article/add/ => generated 8018 bytes in 45 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 19/37] 175.11.51.131 () {42 vars in 800 bytes} [Sat Feb  3 00:06:32 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 18/38] 175.11.51.131 () {44 vars in 919 bytes} [Sat Feb  3 00:06:36 2018] GET /zzladmini/article/ => generated 3299 bytes in 16 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 20/39] 175.11.51.131 () {44 vars in 927 bytes} [Sat Feb  3 00:06:38 2018] GET /zzladmini/article/countview/ => generated 4492 bytes in 90 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 19/40] 175.11.51.131 () {42 vars in 798 bytes} [Sat Feb  3 00:06:38 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 21/41] 175.11.51.131 () {44 vars in 955 bytes} [Sat Feb  3 00:06:39 2018] GET /zzladmini/article/countview/1/change/ => generated 5139 bytes in 28 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 20/42] 175.11.51.131 () {42 vars in 807 bytes} [Sat Feb  3 00:06:39 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 22/43] 175.11.51.131 () {44 vars in 946 bytes} [Sat Feb  3 00:06:41 2018] GET /zzladmini/article/countview/ => generated 4492 bytes in 25 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 21/44] 175.11.51.131 () {42 vars in 798 bytes} [Sat Feb  3 00:06:41 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 23/45] 175.11.51.131 () {44 vars in 917 bytes} [Sat Feb  3 00:06:43 2018] GET /zzladmini/article/ => generated 3299 bytes in 17 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 22/46] 175.11.51.131 () {44 vars in 923 bytes} [Sat Feb  3 00:06:43 2018] GET /zzladmini/article/article/ => generated 3306 bytes in 17 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 24/47] 175.11.51.131 () {42 vars in 796 bytes} [Sat Feb  3 00:06:43 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 23/48] 175.11.51.131 () {44 vars in 939 bytes} [Sat Feb  3 00:06:45 2018] GET /zzladmini/article/article/add/ => generated 8018 bytes in 42 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 25/49] 175.11.51.131 () {42 vars in 800 bytes} [Sat Feb  3 00:06:45 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 24/50] 175.11.51.131 () {52 vars in 1201 bytes} [Sat Feb  3 00:08:09 2018] POST /zzladmini/article/article/add/ => generated 27 bytes in 60 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 26/51] 175.11.51.131 () {44 vars in 939 bytes} [Sat Feb  3 00:08:11 2018] GET /zzladmini/article/article/add/ => generated 8018 bytes in 38 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 25/52] 175.11.51.131 () {44 vars in 919 bytes} [Sat Feb  3 00:08:24 2018] GET /zzladmini/article/ => generated 3299 bytes in 17 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 27/53] 175.11.51.131 () {44 vars in 923 bytes} [Sat Feb  3 00:08:26 2018] GET /zzladmini/article/article/ => generated 3306 bytes in 18 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 26/54] 175.11.51.131 () {42 vars in 796 bytes} [Sat Feb  3 00:08:26 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 28/55] 175.11.51.131 () {44 vars in 939 bytes} [Sat Feb  3 00:08:27 2018] GET /zzladmini/article/article/add/ => generated 8018 bytes in 30 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 27/56] 175.11.51.131 () {42 vars in 800 bytes} [Sat Feb  3 00:08:27 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 29/57] 175.11.51.131 () {52 vars in 1201 bytes} [Sat Feb  3 00:08:45 2018] POST /zzladmini/article/article/add/ => generated 8241 bytes in 32 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 28/58] 175.11.51.131 () {42 vars in 800 bytes} [Sat Feb  3 00:08:45 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 30/59] 175.11.51.131 () {52 vars in 1201 bytes} [Sat Feb  3 00:08:50 2018] POST /zzladmini/article/article/add/ => generated 27 bytes in 72 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 29/60] 175.11.51.131 () {44 vars in 939 bytes} [Sat Feb  3 00:08:57 2018] GET /zzladmini/article/article/add/ => generated 8018 bytes in 42 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 31/61] 175.11.51.131 () {44 vars in 935 bytes} [Sat Feb  3 00:08:59 2018] GET /zzladmini/article/article/ => generated 3306 bytes in 23 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 30/62] 175.11.51.131 () {42 vars in 796 bytes} [Sat Feb  3 00:08:59 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 32/63] 175.11.51.131 () {44 vars in 915 bytes} [Sat Feb  3 00:09:01 2018] GET /zzladmini/article/ => generated 3299 bytes in 50 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 31/64] 175.11.51.131 () {44 vars in 919 bytes} [Sat Feb  3 00:09:02 2018] GET /zzladmini/article/image/ => generated 3292 bytes in 39 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 33/65] 175.11.51.131 () {42 vars in 794 bytes} [Sat Feb  3 00:09:02 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 32/66] 175.11.51.131 () {44 vars in 933 bytes} [Sat Feb  3 00:09:04 2018] GET /zzladmini/article/image/add/ => generated 4496 bytes in 42 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 34/67] 175.11.51.131 () {42 vars in 798 bytes} [Sat Feb  3 00:09:04 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 33/68] 175.11.51.131 () {52 vars in 1197 bytes} [Sat Feb  3 00:09:22 2018] POST /zzladmini/article/image/add/ => generated 27 bytes in 66 msecs (HTTP/1.1 500) 4 headers in 126 bytes (2 switches on core 0)
+[pid: 2489|app: 0|req: 35/69] 175.11.51.131 () {44 vars in 933 bytes} [Sat Feb  3 00:09:26 2018] GET /zzladmini/article/image/add/ => generated 4496 bytes in 21 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 34/70] 175.11.51.131 () {44 vars in 929 bytes} [Sat Feb  3 00:11:22 2018] GET /zzladmini/article/image/ => generated 3292 bytes in 18 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 36/71] 175.11.51.131 () {42 vars in 794 bytes} [Sat Feb  3 00:11:23 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 35/72] 175.11.51.131 () {44 vars in 913 bytes} [Sat Feb  3 00:11:25 2018] GET /zzladmini/article/ => generated 3299 bytes in 17 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 37/73] 175.11.51.131 () {44 vars in 927 bytes} [Sat Feb  3 00:11:40 2018] GET /zzladmini/article/countview/ => generated 4492 bytes in 20 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 36/74] 175.11.51.131 () {42 vars in 798 bytes} [Sat Feb  3 00:11:40 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 38/75] 175.11.51.131 () {44 vars in 913 bytes} [Sat Feb  3 00:11:43 2018] GET /zzladmini/article/ => generated 3299 bytes in 15 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 39/76] 175.11.51.131 () {44 vars in 923 bytes} [Sat Feb  3 00:13:32 2018] GET /zzladmini/article/article/ => generated 3306 bytes in 24 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 37/77] 175.11.51.131 () {42 vars in 796 bytes} [Sat Feb  3 00:13:33 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 40/78] 175.11.51.131 () {44 vars in 939 bytes} [Sat Feb  3 00:13:34 2018] GET /zzladmini/article/article/add/ => generated 8018 bytes in 36 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 38/79] 175.11.51.131 () {42 vars in 800 bytes} [Sat Feb  3 00:13:34 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 41/80] 175.11.51.131 () {52 vars in 1201 bytes} [Sat Feb  3 00:13:49 2018] POST /zzladmini/article/article/add/ => generated 8279 bytes in 48 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 39/81] 175.11.51.131 () {42 vars in 800 bytes} [Sat Feb  3 00:13:49 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 42/82] 175.11.51.131 () {52 vars in 1201 bytes} [Sat Feb  3 00:13:59 2018] POST /zzladmini/article/article/add/ => generated 27 bytes in 72 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 40/83] 175.11.51.131 () {44 vars in 939 bytes} [Sat Feb  3 00:14:02 2018] GET /zzladmini/article/article/add/ => generated 8018 bytes in 37 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 43/84] 175.11.51.131 () {44 vars in 935 bytes} [Sat Feb  3 00:22:05 2018] GET /zzladmini/article/article/ => generated 3306 bytes in 17 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 41/85] 175.11.51.131 () {42 vars in 796 bytes} [Sat Feb  3 00:22:05 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 44/86] 175.11.51.131 () {44 vars in 915 bytes} [Sat Feb  3 00:22:07 2018] GET /zzladmini/article/ => generated 3299 bytes in 14 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 42/87] 175.11.51.131 () {44 vars in 927 bytes} [Sat Feb  3 00:22:08 2018] GET /zzladmini/article/countview/ => generated 4492 bytes in 28 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 45/88] 175.11.51.131 () {42 vars in 798 bytes} [Sat Feb  3 00:22:08 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 43/89] 175.11.51.131 () {44 vars in 955 bytes} [Sat Feb  3 00:22:09 2018] GET /zzladmini/article/countview/1/change/ => generated 5139 bytes in 22 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 46/90] 175.11.51.131 () {42 vars in 807 bytes} [Sat Feb  3 00:22:09 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 44/91] 175.11.51.131 () {52 vars in 1220 bytes} [Sat Feb  3 00:22:12 2018] POST /zzladmini/article/countview/1/change/ => generated 0 bytes in 55 msecs (HTTP/1.1 302) 8 headers in 526 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 47/92] 175.11.51.131 () {46 vars in 1204 bytes} [Sat Feb  3 00:22:12 2018] GET /zzladmini/article/countview/ => generated 4684 bytes in 22 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 45/93] 175.11.51.131 () {42 vars in 798 bytes} [Sat Feb  3 00:22:12 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 48/94] 175.11.51.131 () {44 vars in 917 bytes} [Sat Feb  3 00:22:15 2018] GET /zzladmini/article/ => generated 3299 bytes in 16 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 46/95] 175.11.51.131 () {44 vars in 923 bytes} [Sat Feb  3 00:22:41 2018] GET /zzladmini/article/article/ => generated 3306 bytes in 17 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 49/96] 175.11.51.131 () {42 vars in 796 bytes} [Sat Feb  3 00:22:41 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 47/97] 175.11.51.131 () {44 vars in 939 bytes} [Sat Feb  3 00:22:42 2018] GET /zzladmini/article/article/add/ => generated 8018 bytes in 39 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 50/98] 175.11.51.131 () {42 vars in 800 bytes} [Sat Feb  3 00:22:42 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 48/99] 175.11.51.131 () {52 vars in 1201 bytes} [Sat Feb  3 00:23:01 2018] POST /zzladmini/article/article/add/ => generated 27 bytes in 98 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 51/100] 175.11.51.131 () {44 vars in 939 bytes} [Sat Feb  3 00:23:06 2018] GET /zzladmini/article/article/add/ => generated 8018 bytes in 29 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 52/101] 175.11.51.131 () {52 vars in 1201 bytes} [Sat Feb  3 00:28:12 2018] POST /zzladmini/article/article/add/ => generated 27 bytes in 51 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 49/102] 175.11.51.131 () {44 vars in 939 bytes} [Sat Feb  3 00:28:14 2018] GET /zzladmini/article/article/add/ => generated 8018 bytes in 34 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 53/103] 175.11.51.131 () {52 vars in 1201 bytes} [Sat Feb  3 00:29:00 2018] POST /zzladmini/article/article/add/ => generated 0 bytes in 33 msecs (HTTP/1.1 302) 8 headers in 517 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 50/104] 175.11.51.131 () {46 vars in 1186 bytes} [Sat Feb  3 00:29:00 2018] GET /zzladmini/article/article/ => generated 4648 bytes in 26 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 54/105] 175.11.51.131 () {42 vars in 796 bytes} [Sat Feb  3 00:29:00 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 55/106] 175.11.51.131 () {44 vars in 949 bytes} [Sat Feb  3 00:31:56 2018] GET /zzladmini/article/article/1/change/ => generated 8300 bytes in 29 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 51/107] 175.11.51.131 () {42 vars in 805 bytes} [Sat Feb  3 00:31:56 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 56/108] 175.11.51.131 () {52 vars in 1216 bytes} [Sat Feb  3 00:32:11 2018] POST /zzladmini/article/article/1/change/ => generated 27 bytes in 78 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 52/109] 175.11.51.131 () {44 vars in 949 bytes} [Sat Feb  3 00:32:16 2018] GET /zzladmini/article/article/1/change/ => generated 8300 bytes in 49 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 57/110] 175.11.51.131 () {52 vars in 1216 bytes} [Sat Feb  3 00:36:26 2018] POST /zzladmini/article/article/1/change/ => generated 27 bytes in 77 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 53/111] 175.11.51.131 () {44 vars in 949 bytes} [Sat Feb  3 00:36:28 2018] GET /zzladmini/article/article/1/change/ => generated 8300 bytes in 43 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 58/112] 175.11.51.131 () {44 vars in 940 bytes} [Sat Feb  3 00:45:03 2018] GET /zzladmini/article/article/ => generated 4463 bytes in 29 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 54/113] 175.11.51.131 () {42 vars in 796 bytes} [Sat Feb  3 00:45:03 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 59/114] 175.11.51.131 () {44 vars in 915 bytes} [Sat Feb  3 00:45:05 2018] GET /zzladmini/article/ => generated 3299 bytes in 14 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 55/115] 175.11.51.131 () {44 vars in 927 bytes} [Sat Feb  3 00:45:06 2018] GET /zzladmini/article/countview/ => generated 4492 bytes in 22 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 60/116] 175.11.51.131 () {42 vars in 798 bytes} [Sat Feb  3 00:45:06 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 56/117] 175.11.51.131 () {44 vars in 955 bytes} [Sat Feb  3 00:45:07 2018] GET /zzladmini/article/countview/1/change/ => generated 5139 bytes in 23 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 61/118] 175.11.51.131 () {42 vars in 807 bytes} [Sat Feb  3 00:45:07 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 57/119] 175.11.51.131 () {52 vars in 1220 bytes} [Sat Feb  3 00:45:10 2018] POST /zzladmini/article/countview/1/change/ => generated 0 bytes in 42 msecs (HTTP/1.1 302) 8 headers in 526 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 62/120] 175.11.51.131 () {46 vars in 1204 bytes} [Sat Feb  3 00:45:10 2018] GET /zzladmini/article/countview/ => generated 4684 bytes in 26 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 58/121] 175.11.51.131 () {42 vars in 798 bytes} [Sat Feb  3 00:45:10 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 63/122] 175.11.51.131 () {44 vars in 917 bytes} [Sat Feb  3 00:45:11 2018] GET /zzladmini/article/ => generated 3299 bytes in 14 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 64/123] 175.11.51.131 () {44 vars in 923 bytes} [Sat Feb  3 00:47:26 2018] GET /zzladmini/article/article/ => generated 4463 bytes in 26 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 59/124] 175.11.51.131 () {42 vars in 796 bytes} [Sat Feb  3 00:47:26 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 65/125] 175.11.51.131 () {44 vars in 949 bytes} [Sat Feb  3 00:47:27 2018] GET /zzladmini/article/article/1/change/ => generated 8300 bytes in 32 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 60/126] 175.11.51.131 () {42 vars in 805 bytes} [Sat Feb  3 00:47:27 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2492|app: 0|req: 1/127] 175.11.51.131 () {52 vars in 1216 bytes} [Sat Feb  3 00:47:32 2018] POST /zzladmini/article/article/1/change/ => generated 27 bytes in 143 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 66/128] 175.11.51.131 () {42 vars in 833 bytes} [Sat Feb  3 00:52:55 2018] GET /zzladmini/ => generated 0 bytes in 5 msecs (HTTP/1.1 302) 7 headers in 344 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 61/129] 175.11.51.131 () {42 vars in 834 bytes} [Sat Feb  3 00:52:55 2018] GET /zzladmini/login/?next=/zzladmini/ => generated 1873 bytes in 11 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 67/130] 175.11.51.131 () {52 vars in 1093 bytes} [Sat Feb  3 00:53:02 2018] POST /zzladmini/login/?next=/zzladmini/ => generated 0 bytes in 316 msecs (HTTP/1.1 302) 9 headers in 535 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 62/131] 175.11.51.131 () {46 vars in 937 bytes} [Sat Feb  3 00:53:02 2018] GET /zzladmini/ => generated 4501 bytes in 32 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 68/132] 175.11.51.131 () {44 vars in 915 bytes} [Sat Feb  3 00:53:05 2018] GET /zzladmini/article/article/ => generated 3306 bytes in 20 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 63/133] 175.11.51.131 () {42 vars in 796 bytes} [Sat Feb  3 00:53:05 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 69/134] 175.11.51.131 () {44 vars in 939 bytes} [Sat Feb  3 00:53:06 2018] GET /zzladmini/article/article/add/ => generated 8018 bytes in 32 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 64/135] 175.11.51.131 () {42 vars in 800 bytes} [Sat Feb  3 00:53:06 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 70/136] 175.11.51.131 () {52 vars in 1201 bytes} [Sat Feb  3 00:53:15 2018] POST /zzladmini/article/article/add/ => generated 0 bytes in 65 msecs (HTTP/1.1 302) 8 headers in 626 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 65/137] 175.11.51.131 () {46 vars in 1304 bytes} [Sat Feb  3 00:53:16 2018] GET /zzladmini/article/article/1/change/ => generated 8569 bytes in 44 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 71/138] 175.11.51.131 () {42 vars in 805 bytes} [Sat Feb  3 00:53:16 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 66/139] 175.11.51.131 () {52 vars in 1218 bytes} [Sat Feb  3 00:53:38 2018] POST /zzladmini/article/article/1/change/ => generated 0 bytes in 89 msecs (HTTP/1.1 302) 8 headers in 517 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 72/140] 175.11.51.131 () {46 vars in 1191 bytes} [Sat Feb  3 00:53:38 2018] GET /zzladmini/article/article/ => generated 4648 bytes in 22 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 67/141] 175.11.51.131 () {42 vars in 796 bytes} [Sat Feb  3 00:53:38 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 73/142] 175.11.51.131 () {44 vars in 939 bytes} [Sat Feb  3 00:53:41 2018] GET /zzladmini/article/article/add/ => generated 8018 bytes in 47 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 68/143] 175.11.51.131 () {42 vars in 800 bytes} [Sat Feb  3 00:53:41 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 74/144] 175.11.51.131 () {52 vars in 1201 bytes} [Sat Feb  3 00:57:25 2018] POST /zzladmini/article/article/add/ => generated 0 bytes in 88 msecs (HTTP/1.1 302) 8 headers in 628 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 69/145] 175.11.51.131 () {46 vars in 1301 bytes} [Sat Feb  3 00:57:25 2018] GET /zzladmini/article/article/add/ => generated 8254 bytes in 33 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 75/146] 175.11.51.131 () {42 vars in 800 bytes} [Sat Feb  3 00:57:25 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 70/147] 175.11.51.131 () {52 vars in 1201 bytes} [Sat Feb  3 00:58:18 2018] POST /zzladmini/article/article/add/ => generated 0 bytes in 74 msecs (HTTP/1.1 302) 8 headers in 628 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 76/148] 175.11.51.131 () {46 vars in 1301 bytes} [Sat Feb  3 00:58:18 2018] GET /zzladmini/article/article/add/ => generated 8254 bytes in 39 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 71/149] 175.11.51.131 () {42 vars in 800 bytes} [Sat Feb  3 00:58:19 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 77/150] 175.11.51.131 () {52 vars in 1201 bytes} [Sat Feb  3 00:59:12 2018] POST /zzladmini/article/article/add/ => generated 0 bytes in 76 msecs (HTTP/1.1 302) 8 headers in 517 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 72/151] 175.11.51.131 () {46 vars in 1186 bytes} [Sat Feb  3 00:59:12 2018] GET /zzladmini/article/article/ => generated 5366 bytes in 22 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 78/152] 175.11.51.131 () {42 vars in 796 bytes} [Sat Feb  3 00:59:12 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 73/153] 175.11.51.131 () {44 vars in 915 bytes} [Sat Feb  3 00:59:14 2018] GET /zzladmini/article/ => generated 3299 bytes in 13 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 79/154] 175.11.51.131 () {42 vars in 813 bytes} [Sat Feb  3 00:59:24 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2490|app: 0|req: 2/155] 175.11.51.131 () {44 vars in 869 bytes} [Sat Feb  3 00:59:26 2018] GET /homepage => generated 7765 bytes in 20 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2492|app: 0|req: 2/156] 175.11.51.131 () {44 vars in 923 bytes} [Sat Feb  3 01:00:15 2018] GET /zzladmini/article/article/ => generated 5181 bytes in 115 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 80/157] 175.11.51.131 () {42 vars in 796 bytes} [Sat Feb  3 01:00:15 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 74/158] 175.11.51.131 () {44 vars in 949 bytes} [Sat Feb  3 01:00:17 2018] GET /zzladmini/article/article/3/change/ => generated 17763 bytes in 40 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 81/159] 175.11.51.131 () {42 vars in 805 bytes} [Sat Feb  3 01:00:17 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 75/160] 175.11.51.131 () {44 vars in 940 bytes} [Sat Feb  3 01:00:22 2018] GET /zzladmini/article/article/ => generated 5181 bytes in 30 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 82/161] 175.11.51.131 () {42 vars in 796 bytes} [Sat Feb  3 01:00:22 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 76/162] 175.11.51.131 () {44 vars in 949 bytes} [Sat Feb  3 01:00:23 2018] GET /zzladmini/article/article/1/change/ => generated 17933 bytes in 43 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 83/163] 175.11.51.131 () {42 vars in 805 bytes} [Sat Feb  3 01:00:23 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 2490|app: 0|req: 3/164] 175.11.51.131 () {44 vars in 879 bytes} [Sat Feb  3 01:00:49 2018] GET /article/1 => generated 11158 bytes in 114 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 84/165] 175.11.51.131 () {44 vars in 878 bytes} [Sat Feb  3 01:02:59 2018] GET /homepage => generated 7765 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2490|app: 0|req: 4/166] 175.11.51.131 () {44 vars in 879 bytes} [Sat Feb  3 01:03:06 2018] GET /article/2 => generated 9192 bytes in 66 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 85/167] 175.11.51.131 () {46 vars in 910 bytes} [Sat Feb  3 01:03:18 2018] GET /article/2 => generated 9192 bytes in 50 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 86/168] 175.11.51.131 () {42 vars in 813 bytes} [Sat Feb  3 01:07:45 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2490|app: 0|req: 5/169] 175.11.51.131 () {44 vars in 869 bytes} [Sat Feb  3 01:07:48 2018] GET /homepage => generated 7765 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2492|app: 0|req: 3/170] 175.11.51.131 () {44 vars in 879 bytes} [Sat Feb  3 01:07:54 2018] GET /article/1 => generated 11158 bytes in 42 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 87/171] 175.11.51.131 () {46 vars in 900 bytes} [Sat Feb  3 01:13:24 2018] GET /homepage => generated 7765 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 88/172] 175.11.51.131 () {44 vars in 879 bytes} [Sat Feb  3 01:13:55 2018] GET /article/1 => generated 11158 bytes in 56 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 77/173] 175.11.51.131 () {44 vars in 878 bytes} [Sat Feb  3 01:14:43 2018] GET /homepage => generated 7753 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2490|app: 0|req: 6/174] 175.11.51.131 () {46 vars in 909 bytes} [Sat Feb  3 01:14:52 2018] GET /homepage => generated 7765 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2492|app: 0|req: 4/175] 175.11.51.131 () {44 vars in 879 bytes} [Sat Feb  3 01:15:14 2018] GET /article/1 => generated 11158 bytes in 59 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 89/176] 175.11.51.131 () {44 vars in 878 bytes} [Sat Feb  3 01:15:52 2018] GET /homepage => generated 7765 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2490|app: 0|req: 7/177] 175.11.51.131 () {46 vars in 909 bytes} [Sat Feb  3 01:16:00 2018] GET /homepage => generated 7765 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 78/178] 175.11.51.131 () {42 vars in 813 bytes} [Sat Feb  3 01:16:13 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 90/179] 175.11.51.131 () {44 vars in 869 bytes} [Sat Feb  3 01:16:15 2018] GET /homepage => generated 7765 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 79/180] 175.11.51.131 () {44 vars in 879 bytes} [Sat Feb  3 01:16:38 2018] GET /article/1 => generated 11158 bytes in 68 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 91/181] 175.11.51.131 () {46 vars in 900 bytes} [Sat Feb  3 01:16:51 2018] GET /homepage => generated 7765 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2490|app: 0|req: 8/182] 175.11.51.131 () {44 vars in 879 bytes} [Sat Feb  3 01:17:06 2018] GET /article/1 => generated 11158 bytes in 65 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 92/183] 175.11.51.131 () {44 vars in 878 bytes} [Sat Feb  3 01:17:24 2018] GET /homepage => generated 7765 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.12-debian (32bit) on [Sat Feb  3 01:18:07 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:01:56
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-52-78-ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/ubuntu/blog
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8000).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 2489|app: 0|req: 93/184] 175.11.51.131 () {46 vars in 909 bytes} [Sat Feb  3 01:18:11 2018] GET /homepage => generated 7765 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2490|app: 0|req: 9/185] 175.11.51.131 () {44 vars in 879 bytes} [Sat Feb  3 01:18:12 2018] GET /article/1 => generated 11158 bytes in 64 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 94/186] 175.11.51.131 () {46 vars in 909 bytes} [Sat Feb  3 01:19:57 2018] GET /homepage => generated 7765 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2491|app: 0|req: 80/187] 175.11.51.131 () {44 vars in 879 bytes} [Sat Feb  3 01:20:00 2018] GET /article/1 => generated 11158 bytes in 65 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 95/188] 175.11.51.131 () {44 vars in 878 bytes} [Sat Feb  3 01:20:01 2018] GET /homepage => generated 7765 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2490|app: 0|req: 10/189] 175.11.51.131 () {44 vars in 879 bytes} [Sat Feb  3 01:20:05 2018] GET /article/2 => generated 9192 bytes in 53 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 96/190] 175.11.51.131 () {44 vars in 878 bytes} [Sat Feb  3 01:20:07 2018] GET /homepage => generated 7765 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2492|app: 0|req: 5/191] 175.11.51.131 () {44 vars in 879 bytes} [Sat Feb  3 01:20:09 2018] GET /article/3 => generated 10611 bytes in 60 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2489|app: 0|req: 97/192] 175.11.51.131 () {44 vars in 878 bytes} [Sat Feb  3 01:20:14 2018] GET /homepage => generated 7765 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+...brutally killing workers...
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/blog
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (:8001)
+running /usr/bin/uwsgi-core
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.12-debian (32bit) on [Sat Feb  3 01:21:19 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:01:56
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-52-78-ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/ubuntu/blog
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8000).
+bind(): Address already in use [core/socket.c line 769]
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/blog
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (:8000)
+running /usr/bin/uwsgi-core
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.12-debian (32bit) on [Sat Feb  3 01:21:20 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:01:56
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-52-78-ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/ubuntu/blog
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8000 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x8f43148
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 449460 bytes (438 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x8f43148 pid: 2471 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 2471)
+spawned uWSGI worker 1 (pid: 6594, cores: 1)
+spawned uWSGI worker 2 (pid: 6595, cores: 1)
+spawned uWSGI worker 3 (pid: 6596, cores: 1)
+spawned uWSGI worker 4 (pid: 6597, cores: 1)
+*** Starting uWSGI 2.0.12-debian (32bit) on [Sat Feb  3 01:28:25 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:01:56
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-52-78-ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/ubuntu/blog
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8000 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x92fc170
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 449460 bytes (438 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 10 seconds on interpreter 0x92fc170 pid: 1585 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1585)
+spawned uWSGI worker 1 (pid: 1590, cores: 1)
+spawned uWSGI worker 2 (pid: 1591, cores: 1)
+spawned uWSGI worker 3 (pid: 1592, cores: 1)
+spawned uWSGI worker 4 (pid: 1593, cores: 1)
+[pid: 1592|app: 0|req: 1/1] 175.11.51.131 () {46 vars in 909 bytes} [Sat Feb  3 01:28:36 2018] GET /homepage => generated 7755 bytes in 527 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 1/2] 119.147.207.144 () {38 vars in 632 bytes} [Sat Feb  3 01:35:39 2018] GET / => generated 1788 bytes in 39 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 2/3] 175.11.51.131 () {46 vars in 909 bytes} [Sat Feb  3 01:40:09 2018] GET /homepage => generated 7755 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 1/4] 175.11.51.131 () {44 vars in 879 bytes} [Sat Feb  3 01:40:11 2018] GET /article/1 => generated 11158 bytes in 654 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 3/5] 175.11.51.131 () {44 vars in 878 bytes} [Sat Feb  3 01:40:19 2018] GET /homepage => generated 7755 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1592|app: 0|req: 2/6] 175.11.51.131 () {44 vars in 879 bytes} [Sat Feb  3 01:40:24 2018] GET /article/2 => generated 9192 bytes in 96 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 4/7] 183.57.53.222 () {38 vars in 646 bytes} [Sat Feb  3 01:43:59 2018] GET /homepage => generated 7755 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 5/8] 183.57.53.222 () {38 vars in 702 bytes} [Sat Feb  3 02:26:46 2018] GET /zzladmini/article/countview/1/change => generated 0 bytes in 5 msecs (HTTP/1.1 301) 3 headers in 143 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 2/9] 183.57.53.222 () {40 vars in 780 bytes} [Sat Feb  3 02:26:46 2018] GET /zzladmini/article/countview/1/change/ => generated 0 bytes in 69 msecs (HTTP/1.1 302) 7 headers in 300 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 6/10] 183.57.53.222 () {40 vars in 826 bytes} [Sat Feb  3 02:26:46 2018] GET /zzladmini/login/?next=/zzladmini/article/countview/1/change/ => generated 1927 bytes in 348 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 7/11] 119.147.207.144 () {38 vars in 664 bytes} [Sat Feb  3 02:55:45 2018] GET /zzladmini/jsi18n => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 123 bytes (1 switches on core 0)
+[pid: 1592|app: 0|req: 3/12] 119.147.207.144 () {40 vars in 722 bytes} [Sat Feb  3 02:55:45 2018] GET /zzladmini/jsi18n/ => generated 0 bytes in 38 msecs (HTTP/1.1 302) 5 headers in 177 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 8/13] 119.147.207.144 () {40 vars in 768 bytes} [Sat Feb  3 02:55:45 2018] GET /zzladmini/login/?next=/zzladmini/jsi18n/ => generated 1887 bytes in 11 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 3/14] 183.57.53.222 () {38 vars in 688 bytes} [Sat Feb  3 02:55:49 2018] GET /zzladmini/article/article/add => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 136 bytes (1 switches on core 0)
+[pid: 1592|app: 0|req: 4/15] 183.57.53.222 () {40 vars in 759 bytes} [Sat Feb  3 02:55:49 2018] GET /zzladmini/article/article/add/ => generated 0 bytes in 3 msecs (HTTP/1.1 302) 7 headers in 293 bytes (1 switches on core 0)
+[pid: 1591|app: 0|req: 1/16] 183.57.53.222 () {40 vars in 805 bytes} [Sat Feb  3 02:55:49 2018] GET /zzladmini/login/?next=/zzladmini/article/article/add/ => generated 1913 bytes in 104 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 9/17] 112.90.82.196 () {38 vars in 664 bytes} [Sat Feb  3 02:59:17 2018] GET /zzladmini/article => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 124 bytes (1 switches on core 0)
+[pid: 1592|app: 0|req: 5/18] 112.90.82.196 () {40 vars in 723 bytes} [Sat Feb  3 02:59:17 2018] GET /zzladmini/article/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 7 headers in 281 bytes (1 switches on core 0)
+[pid: 1591|app: 0|req: 2/19] 112.90.82.196 () {40 vars in 769 bytes} [Sat Feb  3 02:59:17 2018] GET /zzladmini/login/?next=/zzladmini/article/ => generated 1889 bytes in 10 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 10/20] 112.90.82.196 () {38 vars in 698 bytes} [Sat Feb  3 03:33:57 2018] GET /zzladmini/article/article/3/change => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 141 bytes (1 switches on core 0)
+[pid: 1592|app: 0|req: 6/21] 112.90.82.196 () {40 vars in 774 bytes} [Sat Feb  3 03:33:57 2018] GET /zzladmini/article/article/3/change/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 7 headers in 298 bytes (1 switches on core 0)
+[pid: 1591|app: 0|req: 3/22] 112.90.82.196 () {40 vars in 820 bytes} [Sat Feb  3 03:33:57 2018] GET /zzladmini/login/?next=/zzladmini/article/article/3/change/ => generated 1923 bytes in 10 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.12-debian (32bit) on [Sat Feb  3 11:53:15 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:01:56
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-52-78-ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/ubuntu/blog
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8000).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 1590|app: 0|req: 11/23] 113.240.234.254 () {40 vars in 686 bytes} [Sat Feb  3 11:53:28 2018] GET / => generated 1788 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1591|app: 0|req: 4/24] 113.240.234.254 () {42 vars in 742 bytes} [Sat Feb  3 11:53:52 2018] GET /homepage => generated 7755 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 4/25] 113.240.234.254 () {40 vars in 675 bytes} [Sat Feb  3 11:54:19 2018] GET /favicon.ico => generated 85 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 12/26] 113.240.234.254 () {44 vars in 773 bytes} [Sat Feb  3 11:54:51 2018] GET /homepage => generated 7755 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.12-debian (32bit) on [Sat Feb  3 11:58:07 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:01:56
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-52-78-ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/ubuntu/blog
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8000).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 1590|app: 0|req: 13/27] 113.240.234.254 () {40 vars in 686 bytes} [Sat Feb  3 11:59:31 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 5/28] 113.240.234.254 () {42 vars in 742 bytes} [Sat Feb  3 11:59:39 2018] GET /homepage => generated 7755 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.12-debian (32bit) on [Sat Feb  3 12:26:50 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:01:56
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-52-78-ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/ubuntu/blog
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8000).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 1590|app: 0|req: 14/29] 121.10.143.92 () {40 vars in 641 bytes} [Sat Feb  3 13:48:09 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 6/30] 121.10.143.92 () {32 vars in 489 bytes} [Sat Feb  3 13:48:13 2018] GET /homepage => generated 7755 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 15/31] 121.10.143.92 () {40 vars in 657 bytes} [Sat Feb  3 13:48:28 2018] GET /homepage => generated 7755 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 7/32] 121.10.143.92 () {32 vars in 491 bytes} [Sat Feb  3 13:48:30 2018] GET /article/1 => generated 11159 bytes in 126 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 16/33] 121.10.143.92 () {32 vars in 491 bytes} [Sat Feb  3 13:48:30 2018] GET /article/2 => generated 9192 bytes in 104 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 8/34] 121.10.143.92 () {32 vars in 491 bytes} [Sat Feb  3 13:48:31 2018] GET /article/3 => generated 10611 bytes in 124 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 17/35] 121.10.143.92 () {32 vars in 491 bytes} [Sat Feb  3 13:48:31 2018] GET /article/4 => generated 7049 bytes in 98 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 9/36] 113.240.234.254 () {40 vars in 703 bytes} [Sat Feb  3 13:49:57 2018] GET /homepage => generated 7755 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 18/37] 118.89.0.220 () {36 vars in 453 bytes} [Sat Feb  3 13:50:31 2018] HEAD /homepage => generated 7755 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1592|app: 0|req: 7/38] 118.89.0.220 () {36 vars in 532 bytes} [Sat Feb  3 13:50:31 2018] GET /homepage => generated 7755 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 19/39] 36.157.33.245 () {40 vars in 692 bytes} [Sat Feb  3 14:15:24 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 10/40] 36.157.33.245 () {40 vars in 673 bytes} [Sat Feb  3 14:15:31 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 1591|app: 0|req: 5/41] 36.157.33.245 () {42 vars in 748 bytes} [Sat Feb  3 14:15:32 2018] GET /homepage => generated 7755 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1592|app: 0|req: 8/42] 36.157.33.245 () {42 vars in 758 bytes} [Sat Feb  3 14:15:42 2018] GET /article/2 => generated 9192 bytes in 63 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 20/43] 36.157.33.245 () {40 vars in 692 bytes} [Sat Feb  3 14:16:00 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 21/44] 13.56.229.65 () {32 vars in 480 bytes} [Sat Feb  3 15:47:54 2018] GET / => generated 1788 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.12-debian (32bit) on [Sat Feb  3 15:56:00 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:01:56
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-52-78-ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/ubuntu/blog
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8000).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 1590|app: 0|req: 22/45] 113.240.234.254 () {42 vars in 704 bytes} [Sat Feb  3 15:56:31 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1592|app: 0|req: 9/46] 113.240.234.254 () {42 vars in 686 bytes} [Sat Feb  3 15:56:38 2018] GET /favicon.ico => generated 85 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 11/47] 113.240.234.254 () {44 vars in 761 bytes} [Sat Feb  3 15:56:39 2018] GET /homepage => generated 7755 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.12-debian (32bit) on [Sat Feb  3 15:59:12 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:01:56
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-52-78-ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/ubuntu/blog
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8000).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 1590|app: 0|req: 23/48] 113.240.234.254 () {42 vars in 704 bytes} [Sat Feb  3 15:59:39 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 12/49] 113.240.234.254 () {44 vars in 761 bytes} [Sat Feb  3 16:00:13 2018] GET /homepage => generated 7755 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 24/50] 113.240.234.254 () {42 vars in 722 bytes} [Sat Feb  3 16:01:20 2018] GET /zzladmini => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 1592|app: 0|req: 10/51] 113.240.234.254 () {42 vars in 724 bytes} [Sat Feb  3 16:01:20 2018] GET /zzladmini/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 7 headers in 273 bytes (1 switches on core 0)
+[pid: 1591|app: 0|req: 6/52] 113.240.234.254 () {42 vars in 769 bytes} [Sat Feb  3 16:01:20 2018] GET /zzladmini/login/?next=/zzladmini/ => generated 1873 bytes in 8 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 25/53] 113.240.234.254 () {54 vars in 1119 bytes} [Sat Feb  3 16:01:31 2018] POST /zzladmini/login/?next=/zzladmini/ => generated 0 bytes in 417 msecs (HTTP/1.1 302) 9 headers in 535 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 13/54] 113.240.234.254 () {48 vars in 962 bytes} [Sat Feb  3 16:01:31 2018] GET /zzladmini/ => generated 6059 bytes in 183 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 26/55] 113.240.234.254 () {46 vars in 944 bytes} [Sat Feb  3 16:01:36 2018] GET /zzladmini/article/countview/ => generated 4492 bytes in 197 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 14/56] 113.240.234.254 () {44 vars in 823 bytes} [Sat Feb  3 16:01:36 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 43 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 27/57] 113.240.234.254 () {46 vars in 980 bytes} [Sat Feb  3 16:01:38 2018] GET /zzladmini/article/countview/1/change/ => generated 5140 bytes in 120 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 15/58] 113.240.234.254 () {44 vars in 832 bytes} [Sat Feb  3 16:01:38 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 28/59] 113.240.234.254 () {46 vars in 944 bytes} [Sat Feb  3 16:01:40 2018] GET /zzladmini/article/countview/ => generated 4492 bytes in 26 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 16/60] 113.240.234.254 () {46 vars in 931 bytes} [Sat Feb  3 16:01:41 2018] GET /zzladmini/ => generated 6059 bytes in 24 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 29/61] 113.240.234.254 () {46 vars in 940 bytes} [Sat Feb  3 16:01:43 2018] GET /zzladmini/article/article/ => generated 5181 bytes in 26 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 17/62] 113.240.234.254 () {44 vars in 821 bytes} [Sat Feb  3 16:01:43 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 30/63] 113.240.234.254 () {46 vars in 974 bytes} [Sat Feb  3 16:01:44 2018] GET /zzladmini/article/article/1/change/ => generated 17934 bytes in 584 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 18/64] 113.240.234.254 () {44 vars in 830 bytes} [Sat Feb  3 16:01:45 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 31/65] 113.240.234.254 () {46 vars in 940 bytes} [Sat Feb  3 16:01:47 2018] GET /zzladmini/article/article/ => generated 5181 bytes in 31 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 19/66] 113.240.234.254 () {46 vars in 974 bytes} [Sat Feb  3 16:01:49 2018] GET /zzladmini/article/article/4/change/ => generated 13530 bytes in 54 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 32/67] 113.240.234.254 () {44 vars in 830 bytes} [Sat Feb  3 16:01:49 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 20/68] 113.240.234.254 () {46 vars in 940 bytes} [Sat Feb  3 16:01:50 2018] GET /zzladmini/article/article/ => generated 5181 bytes in 39 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 33/69] 113.240.234.254 () {46 vars in 974 bytes} [Sat Feb  3 16:01:51 2018] GET /zzladmini/article/article/3/change/ => generated 17763 bytes in 35 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 21/70] 113.240.234.254 () {44 vars in 830 bytes} [Sat Feb  3 16:01:51 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 34/71] 113.240.234.254 () {46 vars in 940 bytes} [Sat Feb  3 16:01:53 2018] GET /zzladmini/article/article/ => generated 5181 bytes in 31 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 22/72] 113.240.234.254 () {46 vars in 974 bytes} [Sat Feb  3 16:01:54 2018] GET /zzladmini/article/article/2/change/ => generated 16244 bytes in 32 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 35/73] 113.240.234.254 () {44 vars in 830 bytes} [Sat Feb  3 16:01:55 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 23/74] 113.240.234.254 () {46 vars in 940 bytes} [Sat Feb  3 16:01:56 2018] GET /zzladmini/article/article/ => generated 5181 bytes in 31 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 36/75] 113.240.234.254 () {46 vars in 924 bytes} [Sat Feb  3 16:01:58 2018] GET /zzladmini/ => generated 6059 bytes in 26 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 37/76] 113.240.234.254 () {44 vars in 857 bytes} [Sat Feb  3 16:09:54 2018] GET /zzladmini/ => generated 6059 bytes in 24 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 24/77] 113.240.234.254 () {44 vars in 829 bytes} [Sat Feb  3 16:09:55 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 1592|app: 0|req: 11/78] 113.240.234.254 () {46 vars in 936 bytes} [Sat Feb  3 16:09:56 2018] GET /zzladmini/article/image/ => generated 3292 bytes in 108 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 38/79] 113.240.234.254 () {44 vars in 819 bytes} [Sat Feb  3 16:09:56 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 25/80] 113.240.234.254 () {46 vars in 958 bytes} [Sat Feb  3 16:09:57 2018] GET /zzladmini/article/image/add/ => generated 4496 bytes in 32 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 39/81] 113.240.234.254 () {44 vars in 823 bytes} [Sat Feb  3 16:09:57 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 26/82] 113.240.234.254 () {54 vars in 1223 bytes} [Sat Feb  3 16:10:07 2018] POST /zzladmini/article/image/add/ => generated 0 bytes in 81 msecs (HTTP/1.1 302) 8 headers in 509 bytes (2 switches on core 0)
+[pid: 1590|app: 0|req: 40/83] 113.240.234.254 () {48 vars in 1199 bytes} [Sat Feb  3 16:10:07 2018] GET /zzladmini/article/image/ => generated 4620 bytes in 23 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 27/84] 113.240.234.254 () {44 vars in 819 bytes} [Sat Feb  3 16:10:07 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 41/85] 113.240.234.254 () {46 vars in 938 bytes} [Sat Feb  3 16:10:14 2018] GET /zzladmini/article/ => generated 3299 bytes in 34 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 28/86] 113.240.234.254 () {46 vars in 944 bytes} [Sat Feb  3 16:10:45 2018] GET /zzladmini/article/image/ => generated 4441 bytes in 23 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 42/87] 113.240.234.254 () {44 vars in 819 bytes} [Sat Feb  3 16:10:46 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 29/88] 113.240.234.254 () {54 vars in 1137 bytes} [Sat Feb  3 16:10:50 2018] POST /zzladmini/article/image/ => generated 3386 bytes in 53 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 43/89] 113.240.234.254 () {54 vars in 1137 bytes} [Sat Feb  3 16:10:51 2018] POST /zzladmini/article/image/ => generated 0 bytes in 95 msecs (HTTP/1.1 302) 8 headers in 441 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 30/90] 113.240.234.254 () {48 vars in 1127 bytes} [Sat Feb  3 16:10:51 2018] GET /zzladmini/article/image/ => generated 3411 bytes in 18 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 44/91] 113.240.234.254 () {44 vars in 819 bytes} [Sat Feb  3 16:10:51 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 31/92] 113.240.234.254 () {46 vars in 938 bytes} [Sat Feb  3 16:10:53 2018] GET /zzladmini/article/ => generated 3299 bytes in 14 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 45/93] 113.240.234.254 () {46 vars in 944 bytes} [Sat Feb  3 16:11:02 2018] GET /zzladmini/article/image/ => generated 3292 bytes in 22 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 32/94] 113.240.234.254 () {44 vars in 819 bytes} [Sat Feb  3 16:11:02 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 46/95] 113.240.234.254 () {46 vars in 938 bytes} [Sat Feb  3 16:11:04 2018] GET /zzladmini/article/ => generated 3299 bytes in 15 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 33/96] 113.240.234.254 () {46 vars in 952 bytes} [Sat Feb  3 16:11:05 2018] GET /zzladmini/article/countview/ => generated 4492 bytes in 21 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 47/97] 113.240.234.254 () {44 vars in 823 bytes} [Sat Feb  3 16:11:05 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 48/98] 111.8.185.238 () {40 vars in 831 bytes} [Sat Feb  3 18:02:45 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 34/99] 111.8.185.238 () {40 vars in 831 bytes} [Sat Feb  3 18:03:01 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 49/100] 111.8.185.238 () {44 vars in 910 bytes} [Sat Feb  3 18:03:17 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1591|app: 0|req: 7/101] 111.8.185.238 () {42 vars in 743 bytes} [Sat Feb  3 18:03:24 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 50/102] 111.8.185.238 () {46 vars in 941 bytes} [Sat Feb  3 18:28:47 2018] GET / => generated 1788 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 51/103] 113.240.234.254 () {44 vars in 836 bytes} [Sat Feb  3 18:43:29 2018] GET / => generated 1788 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1592|app: 0|req: 12/104] 113.240.234.254 () {44 vars in 818 bytes} [Sat Feb  3 18:43:29 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 35/105] 113.240.234.254 () {46 vars in 893 bytes} [Sat Feb  3 18:43:30 2018] GET /homepage => generated 7755 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 52/106] 113.240.234.254 () {46 vars in 903 bytes} [Sat Feb  3 18:44:36 2018] GET /article/1 => generated 11159 bytes in 80 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 36/107] 113.240.234.254 () {48 vars in 934 bytes} [Sat Feb  3 18:44:47 2018] GET /article/1 => generated 11159 bytes in 47 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 53/108] 113.240.234.254 () {44 vars in 856 bytes} [Sat Feb  3 18:45:15 2018] GET /zzladmini/ => generated 6609 bytes in 25 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 37/109] 113.240.234.254 () {46 vars in 939 bytes} [Sat Feb  3 18:45:16 2018] GET /zzladmini/article/article/ => generated 5181 bytes in 24 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 54/110] 113.240.234.254 () {44 vars in 820 bytes} [Sat Feb  3 18:45:17 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 38/111] 113.240.234.254 () {46 vars in 973 bytes} [Sat Feb  3 18:45:17 2018] GET /zzladmini/article/article/1/change/ => generated 17934 bytes in 38 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 55/112] 113.240.234.254 () {44 vars in 829 bytes} [Sat Feb  3 18:45:17 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 39/113] 113.240.234.254 () {54 vars in 1243 bytes} [Sat Feb  3 18:45:26 2018] POST /zzladmini/article/article/1/change/ => generated 0 bytes in 184 msecs (HTTP/1.1 302) 8 headers in 517 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 56/114] 113.240.234.254 () {48 vars in 1215 bytes} [Sat Feb  3 18:45:27 2018] GET /zzladmini/article/article/ => generated 5366 bytes in 26 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 40/115] 113.240.234.254 () {44 vars in 820 bytes} [Sat Feb  3 18:45:27 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 57/116] 113.240.234.254 () {46 vars in 973 bytes} [Sat Feb  3 18:45:30 2018] GET /zzladmini/article/article/3/change/ => generated 17763 bytes in 39 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 41/117] 113.240.234.254 () {44 vars in 829 bytes} [Sat Feb  3 18:45:30 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 58/118] 113.240.234.254 () {54 vars in 1241 bytes} [Sat Feb  3 18:45:36 2018] POST /zzladmini/article/article/3/change/ => generated 0 bytes in 73 msecs (HTTP/1.1 302) 8 headers in 517 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 42/119] 113.240.234.254 () {48 vars in 1215 bytes} [Sat Feb  3 18:45:36 2018] GET /zzladmini/article/article/ => generated 5366 bytes in 28 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 59/120] 113.240.234.254 () {44 vars in 820 bytes} [Sat Feb  3 18:45:36 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 43/121] 113.240.234.254 () {48 vars in 934 bytes} [Sat Feb  3 18:45:38 2018] GET /article/1 => generated 11160 bytes in 42 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 60/122] 113.240.234.254 () {44 vars in 836 bytes} [Sat Feb  3 18:47:10 2018] GET / => generated 1788 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1591|app: 0|req: 8/123] 113.240.234.254 () {46 vars in 893 bytes} [Sat Feb  3 18:47:11 2018] GET /homepage => generated 7755 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 44/124] 113.240.234.254 () {48 vars in 924 bytes} [Sat Feb  3 18:47:24 2018] GET /homepage => generated 7755 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 61/125] 113.240.234.254 () {46 vars in 903 bytes} [Sat Feb  3 18:47:30 2018] GET /article/3 => generated 10610 bytes in 52 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 45/126] 113.240.234.254 () {48 vars in 934 bytes} [Sat Feb  3 18:47:49 2018] GET /article/3 => generated 10610 bytes in 61 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 62/127] 113.240.234.254 () {46 vars in 973 bytes} [Sat Feb  3 18:47:55 2018] GET /zzladmini/article/article/3/change/ => generated 17762 bytes in 38 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 46/128] 113.240.234.254 () {44 vars in 829 bytes} [Sat Feb  3 18:47:55 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 63/129] 113.240.234.254 () {54 vars in 1241 bytes} [Sat Feb  3 18:47:59 2018] POST /zzladmini/article/article/3/change/ => generated 0 bytes in 38 msecs (HTTP/1.1 302) 8 headers in 517 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 47/130] 113.240.234.254 () {48 vars in 1215 bytes} [Sat Feb  3 18:47:59 2018] GET /zzladmini/article/article/ => generated 5366 bytes in 30 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 64/131] 113.240.234.254 () {44 vars in 820 bytes} [Sat Feb  3 18:47:59 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 48/132] 113.240.234.254 () {48 vars in 934 bytes} [Sat Feb  3 18:48:01 2018] GET /article/3 => generated 10611 bytes in 87 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 65/133] 113.240.234.254 () {46 vars in 903 bytes} [Sat Feb  3 18:48:16 2018] GET /article/2 => generated 9192 bytes in 67 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 49/134] 113.240.234.254 () {46 vars in 903 bytes} [Sat Feb  3 18:48:25 2018] GET /article/4 => generated 7049 bytes in 57 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 66/135] 113.240.234.254 () {46 vars in 973 bytes} [Sat Feb  3 18:48:31 2018] GET /zzladmini/article/article/4/change/ => generated 13530 bytes in 38 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 50/136] 113.240.234.254 () {44 vars in 829 bytes} [Sat Feb  3 18:48:31 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 67/137] 113.240.234.254 () {54 vars in 1241 bytes} [Sat Feb  3 18:48:36 2018] POST /zzladmini/article/article/4/change/ => generated 0 bytes in 36 msecs (HTTP/1.1 302) 8 headers in 517 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 51/138] 113.240.234.254 () {48 vars in 1215 bytes} [Sat Feb  3 18:48:36 2018] GET /zzladmini/article/article/ => generated 5366 bytes in 29 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 68/139] 113.240.234.254 () {44 vars in 820 bytes} [Sat Feb  3 18:48:36 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 52/140] 113.240.234.254 () {48 vars in 934 bytes} [Sat Feb  3 18:48:38 2018] GET /article/4 => generated 7048 bytes in 46 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 69/141] 113.240.234.254 () {46 vars in 973 bytes} [Sat Feb  3 18:48:57 2018] GET /zzladmini/article/article/4/change/ => generated 13529 bytes in 39 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 53/142] 113.240.234.254 () {44 vars in 829 bytes} [Sat Feb  3 18:48:58 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 70/143] 113.240.234.254 () {54 vars in 1241 bytes} [Sat Feb  3 18:49:17 2018] POST /zzladmini/article/article/4/change/ => generated 0 bytes in 49 msecs (HTTP/1.1 302) 8 headers in 517 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 54/144] 113.240.234.254 () {48 vars in 1215 bytes} [Sat Feb  3 18:49:17 2018] GET /zzladmini/article/article/ => generated 5366 bytes in 25 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 71/145] 113.240.234.254 () {44 vars in 820 bytes} [Sat Feb  3 18:49:17 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 55/146] 113.240.234.254 () {48 vars in 934 bytes} [Sat Feb  3 18:49:19 2018] GET /article/4 => generated 7062 bytes in 58 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 72/147] 113.240.234.254 () {46 vars in 902 bytes} [Sat Feb  3 18:49:21 2018] GET /homepage => generated 7755 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1592|app: 0|req: 13/148] 113.240.234.254 () {48 vars in 933 bytes} [Sat Feb  3 18:49:33 2018] GET /homepage => generated 7755 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 73/149] 113.240.234.254 () {48 vars in 933 bytes} [Sat Feb  3 18:51:05 2018] GET /homepage => generated 7755 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 74/150] 113.240.234.254 () {48 vars in 933 bytes} [Sat Feb  3 18:52:07 2018] GET /homepage => generated 7755 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1592|app: 0|req: 14/151] 113.240.234.254 () {48 vars in 857 bytes} [Sat Feb  3 18:52:32 2018] GET /homepage => generated 7755 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 56/152] 113.240.234.254 () {48 vars in 857 bytes} [Sat Feb  3 18:52:54 2018] GET /homepage => generated 7755 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1591|app: 0|req: 9/153] 113.240.234.254 () {48 vars in 857 bytes} [Sat Feb  3 18:53:05 2018] GET /homepage => generated 7755 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 75/154] 113.240.234.254 () {46 vars in 827 bytes} [Sat Feb  3 18:53:12 2018] GET /article/1 => generated 11160 bytes in 51 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 76/155] 113.240.234.254 () {44 vars in 778 bytes} [Sat Feb  3 18:55:01 2018] GET /zzladmini => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 1592|app: 0|req: 15/156] 113.240.234.254 () {44 vars in 780 bytes} [Sat Feb  3 18:55:01 2018] GET /zzladmini/ => generated 7533 bytes in 29 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 77/157] 113.240.234.254 () {46 vars in 863 bytes} [Sat Feb  3 18:55:04 2018] GET /zzladmini/article/article/ => generated 5181 bytes in 33 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 57/158] 113.240.234.254 () {44 vars in 820 bytes} [Sat Feb  3 18:55:04 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 78/159] 113.240.234.254 () {46 vars in 973 bytes} [Sat Feb  3 18:55:06 2018] GET /zzladmini/article/article/1/change/ => generated 17935 bytes in 45 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 58/160] 113.240.234.254 () {44 vars in 829 bytes} [Sat Feb  3 18:55:06 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 79/161] 113.240.234.254 () {54 vars in 1243 bytes} [Sat Feb  3 18:55:12 2018] POST /zzladmini/article/article/1/change/ => generated 0 bytes in 52 msecs (HTTP/1.1 302) 8 headers in 517 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 59/162] 113.240.234.254 () {48 vars in 1215 bytes} [Sat Feb  3 18:55:12 2018] GET /zzladmini/article/article/ => generated 5366 bytes in 31 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 80/163] 113.240.234.254 () {44 vars in 820 bytes} [Sat Feb  3 18:55:12 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 60/164] 113.240.234.254 () {46 vars in 973 bytes} [Sat Feb  3 18:55:13 2018] GET /zzladmini/article/article/4/change/ => generated 13536 bytes in 43 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 81/165] 113.240.234.254 () {44 vars in 829 bytes} [Sat Feb  3 18:55:13 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 61/166] 113.240.234.254 () {46 vars in 964 bytes} [Sat Feb  3 18:55:16 2018] GET /zzladmini/article/article/ => generated 5181 bytes in 26 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 82/167] 113.240.234.254 () {44 vars in 820 bytes} [Sat Feb  3 18:55:16 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 62/168] 113.240.234.254 () {46 vars in 973 bytes} [Sat Feb  3 18:55:18 2018] GET /zzladmini/article/article/3/change/ => generated 17763 bytes in 38 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 83/169] 113.240.234.254 () {44 vars in 829 bytes} [Sat Feb  3 18:55:18 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 63/170] 113.240.234.254 () {54 vars in 1241 bytes} [Sat Feb  3 18:55:21 2018] POST /zzladmini/article/article/3/change/ => generated 0 bytes in 41 msecs (HTTP/1.1 302) 8 headers in 517 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 84/171] 113.240.234.254 () {48 vars in 1215 bytes} [Sat Feb  3 18:55:21 2018] GET /zzladmini/article/article/ => generated 5366 bytes in 25 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 64/172] 113.240.234.254 () {44 vars in 820 bytes} [Sat Feb  3 18:55:21 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 85/173] 113.240.234.254 () {46 vars in 973 bytes} [Sat Feb  3 18:55:23 2018] GET /zzladmini/article/article/2/change/ => generated 16244 bytes in 55 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 65/174] 113.240.234.254 () {44 vars in 829 bytes} [Sat Feb  3 18:55:23 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1590|app: 0|req: 86/175] 113.240.234.254 () {46 vars in 948 bytes} [Sat Feb  3 18:55:27 2018] GET /zzladmini/article/ => generated 3299 bytes in 16 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 1593|app: 0|req: 66/176] 113.240.234.254 () {46 vars in 915 bytes} [Sat Feb  3 18:55:28 2018] GET /zzladmini/ => generated 7539 bytes in 21 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.12-debian (32bit) on [Sat Feb  3 18:55:45 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:01:56
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-52-78-ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/ubuntu/blog
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8000).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 1590|app: 0|req: 87/177] 113.240.234.254 () {48 vars in 933 bytes} [Sat Feb  3 18:55:49 2018] GET /homepage => generated 7755 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1592|app: 0|req: 16/178] 113.240.234.254 () {48 vars in 933 bytes} [Sat Feb  3 18:55:57 2018] GET /homepage => generated 7755 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.12-debian (32bit) on [Sat Feb  3 18:56:55 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:01:56
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-52-78-ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/ubuntu/blog
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8000).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 1590|app: 0|req: 88/179] 113.240.234.254 () {48 vars in 857 bytes} [Sat Feb  3 18:57:10 2018] GET /homepage => generated 7755 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/blog
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (:8000)
+running /usr/bin/uwsgi-core
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.12-debian (32bit) on [Sat Feb  3 18:57:42 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:01:56
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-52-78-ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/ubuntu/blog
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8000 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x96ad148
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 449460 bytes (438 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x96ad148 pid: 1585 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1585)
+spawned uWSGI worker 1 (pid: 16766, cores: 1)
+spawned uWSGI worker 2 (pid: 16767, cores: 1)
+spawned uWSGI worker 3 (pid: 16768, cores: 1)
+spawned uWSGI worker 4 (pid: 16769, cores: 1)
+*** Starting uWSGI 2.0.12-debian (32bit) on [Sat Feb  3 19:01:46 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:01:56
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-52-78-ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/ubuntu/blog
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8000 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x851d170
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 449460 bytes (438 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 7 seconds on interpreter 0x851d170 pid: 1497 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1497)
+spawned uWSGI worker 1 (pid: 1502, cores: 1)
+spawned uWSGI worker 2 (pid: 1503, cores: 1)
+spawned uWSGI worker 3 (pid: 1504, cores: 1)
+spawned uWSGI worker 4 (pid: 1505, cores: 1)
+[pid: 1505|app: 0|req: 1/1] 113.240.234.254 () {48 vars in 857 bytes} [Sat Feb  3 19:01:54 2018] GET /homepage => generated 7753 bytes in 263 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1504|app: 0|req: 1/2] 113.240.234.254 () {48 vars in 857 bytes} [Sat Feb  3 19:02:04 2018] GET /homepage => generated 7753 bytes in 22 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1502|app: 0|req: 1/3] 113.240.234.254 () {48 vars in 857 bytes} [Sat Feb  3 19:02:08 2018] GET /homepage => generated 7753 bytes in 24 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1504|app: 0|req: 2/4] 113.240.234.254 () {48 vars in 857 bytes} [Sat Feb  3 19:02:10 2018] GET /homepage => generated 7753 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1505|app: 0|req: 2/5] 113.240.234.254 () {48 vars in 857 bytes} [Sat Feb  3 19:02:12 2018] GET /homepage => generated 7753 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1503|app: 0|req: 1/6] 113.240.234.254 () {46 vars in 827 bytes} [Sat Feb  3 19:02:15 2018] GET /article/1 => generated 11159 bytes in 622 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 1504|app: 0|req: 3/7] 113.240.234.254 () {46 vars in 826 bytes} [Sat Feb  3 19:02:38 2018] GET /homepage => generated 7753 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1505|app: 0|req: 3/8] 113.240.234.254 () {46 vars in 827 bytes} [Sat Feb  3 19:02:41 2018] GET /article/2 => generated 9192 bytes in 113 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1504|app: 0|req: 4/9] 113.240.234.254 () {46 vars in 826 bytes} [Sat Feb  3 19:02:50 2018] GET /homepage => generated 7753 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1503|app: 0|req: 2/10] 113.240.234.254 () {46 vars in 827 bytes} [Sat Feb  3 19:02:52 2018] GET /article/3 => generated 10610 bytes in 46 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 1504|app: 0|req: 5/11] 113.240.234.254 () {46 vars in 826 bytes} [Sat Feb  3 19:05:11 2018] GET /homepage => generated 7753 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1502|app: 0|req: 2/12] 113.240.234.254 () {46 vars in 827 bytes} [Sat Feb  3 19:05:13 2018] GET /article/4 => generated 7062 bytes in 100 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1504|app: 0|req: 6/13] 113.240.234.254 () {46 vars in 826 bytes} [Sat Feb  3 19:05:18 2018] GET /homepage => generated 7753 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1505|app: 0|req: 4/14] 113.240.234.254 () {46 vars in 827 bytes} [Sat Feb  3 19:05:20 2018] GET /article/1 => generated 11159 bytes in 48 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 1504|app: 0|req: 7/15] 113.240.234.254 () {48 vars in 858 bytes} [Sat Feb  3 19:08:22 2018] GET /article/1 => generated 11159 bytes in 108 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 1502|app: 0|req: 3/16] 113.240.234.254 () {46 vars in 826 bytes} [Sat Feb  3 19:08:30 2018] GET /homepage => generated 7753 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1505|app: 0|req: 5/17] 113.240.234.254 () {48 vars in 857 bytes} [Sat Feb  3 19:08:40 2018] GET /homepage => generated 7753 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1503|app: 0|req: 3/18] 113.240.234.254 () {46 vars in 827 bytes} [Sat Feb  3 19:08:57 2018] GET /article/1 => generated 11159 bytes in 49 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 1504|app: 0|req: 8/19] 113.240.234.254 () {46 vars in 826 bytes} [Sat Feb  3 19:09:01 2018] GET /homepage => generated 7753 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1505|app: 0|req: 6/20] 113.240.234.254 () {46 vars in 827 bytes} [Sat Feb  3 19:09:02 2018] GET /article/2 => generated 9192 bytes in 52 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1504|app: 0|req: 9/21] 113.240.234.254 () {46 vars in 826 bytes} [Sat Feb  3 19:09:12 2018] GET /homepage => generated 7753 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1503|app: 0|req: 4/22] 113.240.234.254 () {44 vars in 778 bytes} [Sat Feb  3 19:09:18 2018] GET /zzladmini => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 1502|app: 0|req: 4/23] 113.240.234.254 () {44 vars in 780 bytes} [Sat Feb  3 19:09:18 2018] GET /zzladmini/ => generated 7539 bytes in 274 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 1504|app: 0|req: 10/24] 113.240.234.254 () {46 vars in 863 bytes} [Sat Feb  3 19:09:23 2018] GET /zzladmini/article/article/ => generated 5181 bytes in 254 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1502|app: 0|req: 5/25] 113.240.234.254 () {44 vars in 820 bytes} [Sat Feb  3 19:09:23 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 23 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1504|app: 0|req: 11/26] 113.240.234.254 () {46 vars in 973 bytes} [Sat Feb  3 19:09:25 2018] GET /zzladmini/article/article/1/change/ => generated 17934 bytes in 174 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 1502|app: 0|req: 6/27] 113.240.234.254 () {44 vars in 829 bytes} [Sat Feb  3 19:09:26 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1504|app: 0|req: 12/28] 113.240.234.254 () {46 vars in 903 bytes} [Sat Feb  3 19:10:06 2018] GET /article/1 => generated 11159 bytes in 101 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 1502|app: 0|req: 7/29] 113.240.234.254 () {48 vars in 934 bytes} [Sat Feb  3 19:10:11 2018] GET /article/1 => generated 11159 bytes in 52 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.12-debian (32bit) on [Sat Feb  3 19:10:50 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:01:56
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-52-78-ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/ubuntu/blog
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8000).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 1504|app: 0|req: 13/30] 113.240.234.254 () {48 vars in 934 bytes} [Sat Feb  3 19:10:52 2018] GET /article/1 => generated 11159 bytes in 54 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+...brutally killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/blog
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (:8000)
+running /usr/bin/uwsgi-core
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.12-debian (32bit) on [Sat Feb  3 19:11:18 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:01:56
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-52-78-ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/ubuntu/blog
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8000 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x8f70148
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 449460 bytes (438 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x8f70148 pid: 1497 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1497)
+spawned uWSGI worker 1 (pid: 2174, cores: 1)
+spawned uWSGI worker 2 (pid: 2175, cores: 1)
+spawned uWSGI worker 3 (pid: 2176, cores: 1)
+spawned uWSGI worker 4 (pid: 2177, cores: 1)
+*** Starting uWSGI 2.0.12-debian (32bit) on [Sat Feb  3 19:13:46 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:01:56
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-52-78-ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/ubuntu/blog
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8000 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x9c67170
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 449460 bytes (438 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x9c67170 pid: 1362 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1362)
+spawned uWSGI worker 1 (pid: 1365, cores: 1)
+spawned uWSGI worker 2 (pid: 1366, cores: 1)
+spawned uWSGI worker 3 (pid: 1367, cores: 1)
+spawned uWSGI worker 4 (pid: 1368, cores: 1)
+[pid: 1368|app: 0|req: 1/1] 113.240.234.254 () {48 vars in 934 bytes} [Sat Feb  3 19:13:49 2018] GET /article/1 => generated 11156 bytes in 400 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 1/2] 111.8.185.238 () {42 vars in 708 bytes} [Sat Feb  3 19:15:08 2018] GET / => generated 1788 bytes in 38 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 1/3] 111.8.185.238 () {42 vars in 690 bytes} [Sat Feb  3 19:15:15 2018] GET /favicon.ico => generated 85 bytes in 37 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 2/4] 111.8.185.238 () {42 vars in 708 bytes} [Sat Feb  3 19:51:14 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 2/5] 111.8.185.238 () {44 vars in 765 bytes} [Sat Feb  3 19:51:16 2018] GET /homepage => generated 7753 bytes in 22 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1367|app: 0|req: 1/6] 111.8.185.238 () {44 vars in 775 bytes} [Sat Feb  3 19:51:34 2018] GET /article/3 => generated 10607 bytes in 128 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 3/7] 111.8.185.238 () {42 vars in 708 bytes} [Sat Feb  3 20:02:45 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 3/8] 111.8.185.238 () {44 vars in 765 bytes} [Sat Feb  3 20:02:50 2018] GET /homepage => generated 7753 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1367|app: 0|req: 2/9] 111.8.185.238 () {44 vars in 775 bytes} [Sat Feb  3 20:02:56 2018] GET /article/1 => generated 11156 bytes in 45 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 4/10] 111.8.185.238 () {44 vars in 774 bytes} [Sat Feb  3 20:03:09 2018] GET /homepage => generated 7753 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 5/11] 184.105.247.196 () {30 vars in 324 bytes} [Sat Feb  3 20:12:31 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 6/12] 118.250.86.252 () {44 vars in 831 bytes} [Sat Feb  3 20:55:41 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 4/13] 118.250.86.252 () {44 vars in 813 bytes} [Sat Feb  3 20:55:48 2018] GET /favicon.ico => generated 85 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 1367|app: 0|req: 3/14] 118.250.86.252 () {46 vars in 888 bytes} [Sat Feb  3 20:56:02 2018] GET /homepage => generated 7753 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 7/15] 222.64.227.105 () {40 vars in 768 bytes} [Sat Feb  3 21:02:43 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 5/16] 222.64.227.105 () {40 vars in 572 bytes} [Sat Feb  3 21:02:52 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1367|app: 0|req: 4/17] 120.92.11.189 () {40 vars in 587 bytes} [Sat Feb  3 21:02:55 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1368|app: 0|req: 2/18] 222.64.227.105 () {42 vars in 629 bytes} [Sat Feb  3 21:03:01 2018] GET /homepage => generated 7753 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 8/19] 222.64.227.105 () {42 vars in 639 bytes} [Sat Feb  3 21:03:13 2018] GET /article/1 => generated 11156 bytes in 99 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 6/20] 111.8.185.238 () {40 vars in 834 bytes} [Sat Feb  3 21:04:19 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 9/21] 118.250.86.252 () {42 vars in 713 bytes} [Sat Feb  3 21:04:58 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 7/22] 118.250.86.252 () {42 vars in 739 bytes} [Sat Feb  3 21:05:07 2018] GET /homepage => generated 7753 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 10/23] 118.250.86.252 () {42 vars in 749 bytes} [Sat Feb  3 21:05:36 2018] GET /article/1 => generated 11156 bytes in 49 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 8/24] 111.8.185.238 () {40 vars in 834 bytes} [Sat Feb  3 21:06:11 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1368|app: 0|req: 3/25] 111.8.185.238 () {42 vars in 840 bytes} [Sat Feb  3 21:06:11 2018] GET /favicon.ico => generated 85 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 1367|app: 0|req: 5/26] 111.8.185.238 () {42 vars in 840 bytes} [Sat Feb  3 21:06:11 2018] GET /favicon.ico => generated 85 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 9/27] 120.204.17.71 () {36 vars in 598 bytes} [Sat Feb  3 21:06:36 2018] GET /article/1 => generated 11156 bytes in 78 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 11/28] 111.8.185.238 () {44 vars in 910 bytes} [Sat Feb  3 21:07:29 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1367|app: 0|req: 6/29] 111.8.185.238 () {42 vars in 743 bytes} [Sat Feb  3 21:07:29 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 12/30] 118.250.86.252 () {42 vars in 713 bytes} [Sat Feb  3 21:08:07 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 13/31] 118.250.86.252 () {42 vars in 690 bytes} [Sat Feb  3 21:09:18 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 14/32] 222.64.227.105 () {40 vars in 588 bytes} [Sat Feb  3 21:18:08 2018] GET /homepage => generated 7753 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 15/33] 119.147.207.144 () {42 vars in 685 bytes} [Sat Feb  3 22:10:15 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 16/34] 69.58.178.57 () {38 vars in 508 bytes} [Sun Feb  4 00:41:41 2018] GET /robots.txt => generated 84 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 10/35] 69.58.178.57 () {38 vars in 488 bytes} [Sun Feb  4 00:41:43 2018] GET / => generated 1788 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1367|app: 0|req: 7/36] 69.58.178.57 () {38 vars in 504 bytes} [Sun Feb  4 00:41:44 2018] GET /homepage => generated 7753 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1368|app: 0|req: 4/37] 69.58.178.57 () {38 vars in 506 bytes} [Sun Feb  4 00:41:45 2018] GET /article/1 => generated 11156 bytes in 45 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 17/38] 69.58.178.57 () {38 vars in 506 bytes} [Sun Feb  4 00:41:47 2018] GET /article/2 => generated 9190 bytes in 45 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 11/39] 69.58.178.57 () {38 vars in 506 bytes} [Sun Feb  4 00:41:48 2018] GET /article/3 => generated 10607 bytes in 49 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 18/40] 69.58.178.57 () {38 vars in 506 bytes} [Sun Feb  4 00:41:49 2018] GET /article/4 => generated 7059 bytes in 42 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Empty python request. skip.
+[pid: 1366|app: -1|req: -1/41]  () {0 vars in 0 bytes} [Sun Feb  4 00:56:30 2018]   => generated 0 bytes in 0 msecs ( 0) 0 headers in 0 bytes (0 switches on core 0)
+-- unavailable modifier requested: 5 --
+-- unavailable modifier requested: 4 --
+-- unavailable modifier requested: 65 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 128 --
+[pid: 1366|app: 0|req: 19/47] 38.140.143.242 () {30 vars in 323 bytes} [Sun Feb  4 02:24:05 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 20/48] 60.191.38.78 () {38 vars in 593 bytes} [Sun Feb  4 03:12:55 2018] GET / => generated 1788 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 21/49] 182.48.105.210 () {42 vars in 570 bytes} [Sun Feb  4 05:48:19 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 22/50] 111.8.185.238 () {44 vars in 783 bytes} [Sun Feb  4 07:40:09 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 12/51] 111.8.185.238 () {42 vars in 719 bytes} [Sun Feb  4 07:40:15 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 23/52] 148.62.14.156 () {40 vars in 631 bytes} [Sun Feb  4 11:18:05 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 24/53] 35.162.70.167 () {38 vars in 438 bytes} [Sun Feb  4 12:12:31 2018] GET / => generated 1788 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 25/54] 222.244.96.65 () {44 vars in 700 bytes} [Sun Feb  4 16:52:24 2018] GET / => generated 1788 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 13/55] 222.244.96.65 () {44 vars in 722 bytes} [Sun Feb  4 16:52:33 2018] GET /homepage => generated 7753 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 26/56] 222.244.96.65 () {44 vars in 732 bytes} [Sun Feb  4 16:53:39 2018] GET /article/3 => generated 10607 bytes in 99 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 14/57] 222.244.96.65 () {44 vars in 732 bytes} [Sun Feb  4 16:53:47 2018] GET /article/2 => generated 9190 bytes in 50 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 27/58] 216.218.206.67 () {30 vars in 324 bytes} [Sun Feb  4 19:56:16 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 28/59] 118.250.86.252 () {44 vars in 831 bytes} [Sun Feb  4 21:17:55 2018] GET / => generated 1788 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 15/60] 118.250.86.252 () {44 vars in 813 bytes} [Sun Feb  4 21:18:02 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 1367|app: 0|req: 8/61] 118.250.86.252 () {44 vars in 849 bytes} [Sun Feb  4 21:18:07 2018] GET /zzladmini => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 1368|app: 0|req: 5/62] 118.250.86.252 () {44 vars in 851 bytes} [Sun Feb  4 21:18:07 2018] GET /zzladmini/ => generated 7539 bytes in 387 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 29/63] 118.250.86.252 () {46 vars in 938 bytes} [Sun Feb  4 21:18:11 2018] GET /zzladmini/article/countview/ => generated 4736 bytes in 248 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 16/64] 118.250.86.252 () {44 vars in 817 bytes} [Sun Feb  4 21:18:11 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 28 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 30/65] 118.250.86.252 () {46 vars in 974 bytes} [Sun Feb  4 21:18:13 2018] GET /zzladmini/article/countview/2/change/ => generated 5139 bytes in 125 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 17/66] 118.250.86.252 () {44 vars in 826 bytes} [Sun Feb  4 21:18:13 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 31/67] 118.250.86.252 () {46 vars in 945 bytes} [Sun Feb  4 21:18:41 2018] GET /zzladmini/article/ => generated 3299 bytes in 48 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 18/68] 118.250.86.252 () {46 vars in 942 bytes} [Sun Feb  4 21:18:42 2018] GET /zzladmini/article/article/ => generated 5181 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 32/69] 118.250.86.252 () {44 vars in 815 bytes} [Sun Feb  4 21:18:42 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 19/70] 118.250.86.252 () {46 vars in 968 bytes} [Sun Feb  4 21:18:43 2018] GET /zzladmini/article/article/1/change/ => generated 17934 bytes in 149 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 33/71] 118.250.86.252 () {44 vars in 824 bytes} [Sun Feb  4 21:18:44 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 20/72] 118.250.86.252 () {46 vars in 927 bytes} [Sun Feb  4 21:18:46 2018] GET /zzladmini/ => generated 7539 bytes in 38 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+uwsgi_proto_uwsgi_parser(): Success [proto/uwsgi.c line 40]
+[pid: 1366|app: 0|req: 34/73] 118.250.86.252 () {44 vars in 852 bytes} [Sun Feb  4 23:20:32 2018] GET /zzladmini/ => generated 7539 bytes in 26 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 21/74] 118.250.86.252 () {44 vars in 824 bytes} [Sun Feb  4 23:20:32 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 1368|app: 0|req: 6/75] 118.250.86.252 () {46 vars in 939 bytes} [Sun Feb  4 23:20:34 2018] GET /zzladmini/article/countview/ => generated 4736 bytes in 52 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 35/76] 118.250.86.252 () {44 vars in 818 bytes} [Sun Feb  4 23:20:34 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 22/77] 118.250.86.252 () {46 vars in 975 bytes} [Sun Feb  4 23:20:39 2018] GET /zzladmini/article/countview/2/change/ => generated 5139 bytes in 23 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 36/78] 118.250.86.252 () {44 vars in 827 bytes} [Sun Feb  4 23:20:39 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 37/79] 60.191.38.78 () {38 vars in 593 bytes} [Mon Feb  5 02:11:15 2018] GET / => generated 1788 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 38/80] 122.96.28.178 () {30 vars in 327 bytes} [Mon Feb  5 03:30:45 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 39/81] 106.45.0.71 () {40 vars in 642 bytes} [Mon Feb  5 03:31:57 2018] GET / => generated 1788 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 40/82] 137.226.113.26 () {34 vars in 471 bytes} [Mon Feb  5 07:41:01 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 41/83] 175.0.233.12 () {40 vars in 557 bytes} [Mon Feb  5 11:32:58 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 42/84] 118.250.86.252 () {44 vars in 852 bytes} [Mon Feb  5 12:02:17 2018] GET /zzladmini/ => generated 7539 bytes in 36 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 23/85] 118.250.86.252 () {44 vars in 824 bytes} [Mon Feb  5 12:02:17 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 1368|app: 0|req: 7/86] 118.250.86.252 () {46 vars in 939 bytes} [Mon Feb  5 12:02:20 2018] GET /zzladmini/article/countview/ => generated 4736 bytes in 24 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 43/87] 118.250.86.252 () {44 vars in 818 bytes} [Mon Feb  5 12:02:20 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 24/88] 118.250.86.252 () {46 vars in 975 bytes} [Mon Feb  5 12:02:23 2018] GET /zzladmini/article/countview/2/change/ => generated 5139 bytes in 22 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 44/89] 118.250.86.252 () {44 vars in 827 bytes} [Mon Feb  5 12:02:23 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 25/90] 118.250.86.252 () {46 vars in 939 bytes} [Mon Feb  5 12:02:25 2018] GET /zzladmini/article/countview/ => generated 4736 bytes in 21 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 45/91] 118.250.86.252 () {46 vars in 975 bytes} [Mon Feb  5 12:02:26 2018] GET /zzladmini/article/countview/1/change/ => generated 5140 bytes in 19 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 26/92] 118.250.86.252 () {44 vars in 827 bytes} [Mon Feb  5 12:02:26 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 46/93] 118.250.86.252 () {46 vars in 939 bytes} [Mon Feb  5 12:02:27 2018] GET /zzladmini/article/countview/ => generated 4736 bytes in 20 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 47/94] 35.162.70.167 () {38 vars in 438 bytes} [Mon Feb  5 13:19:55 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 48/95] 159.65.34.243 () {32 vars in 414 bytes} [Mon Feb  5 13:52:58 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+-- unavailable modifier requested: 3 --
+[pid: 1366|app: 0|req: 49/97] 137.226.113.27 () {34 vars in 471 bytes} [Mon Feb  5 15:33:00 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 27/98] 137.226.113.27 () {34 vars in 471 bytes} [Mon Feb  5 15:33:01 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 50/99] 175.0.233.12 () {40 vars in 557 bytes} [Mon Feb  5 16:22:47 2018] GET / => generated 1788 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 28/100] 175.0.233.12 () {40 vars in 557 bytes} [Mon Feb  5 16:22:55 2018] GET / => generated 1788 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 51/101] 175.0.233.12 () {40 vars in 557 bytes} [Mon Feb  5 16:23:05 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 52/102] 164.132.91.13 () {34 vars in 398 bytes} [Mon Feb  5 17:12:56 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 53/103] 175.0.233.12 () {40 vars in 557 bytes} [Mon Feb  5 17:15:45 2018] GET / => generated 1788 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 54/104] 175.0.233.12 () {40 vars in 557 bytes} [Mon Feb  5 17:16:18 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 55/105] 175.0.233.12 () {40 vars in 557 bytes} [Mon Feb  5 18:08:13 2018] GET / => generated 1788 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 56/106] 118.250.162.63 () {44 vars in 851 bytes} [Mon Feb  5 18:26:54 2018] GET /zzladmini/ => generated 7539 bytes in 27 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 29/107] 118.250.162.63 () {44 vars in 823 bytes} [Mon Feb  5 18:26:54 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 1368|app: 0|req: 8/108] 118.250.162.63 () {46 vars in 938 bytes} [Mon Feb  5 18:26:56 2018] GET /zzladmini/article/countview/ => generated 4736 bytes in 22 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 57/109] 118.250.162.63 () {44 vars in 817 bytes} [Mon Feb  5 18:26:56 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+Empty python request. skip.
+[pid: 1366|app: -1|req: -1/110]  () {0 vars in 0 bytes} [Mon Feb  5 18:49:51 2018]   => generated 0 bytes in 0 msecs ( 0) 0 headers in 0 bytes (0 switches on core 0)
+[pid: 1366|app: 0|req: 58/111] 71.6.202.204 () {34 vars in 483 bytes} [Mon Feb  5 19:05:09 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 59/112] 60.191.38.77 () {38 vars in 593 bytes} [Mon Feb  5 19:11:44 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 60/113] 118.250.162.63 () {44 vars in 851 bytes} [Mon Feb  5 21:48:06 2018] GET /zzladmini/ => generated 7539 bytes in 33 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 30/114] 118.250.162.63 () {44 vars in 851 bytes} [Mon Feb  5 21:48:10 2018] GET /zzladmini/ => generated 7539 bytes in 24 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 61/115] 118.250.162.63 () {44 vars in 823 bytes} [Mon Feb  5 21:48:10 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 1368|app: 0|req: 9/116] 118.250.162.63 () {46 vars in 938 bytes} [Mon Feb  5 21:48:12 2018] GET /zzladmini/article/countview/ => generated 4736 bytes in 22 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 62/117] 118.250.162.63 () {44 vars in 817 bytes} [Mon Feb  5 21:48:12 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 31/118] 118.250.162.63 () {46 vars in 936 bytes} [Mon Feb  5 21:48:14 2018] GET /zzladmini/article/ => generated 3299 bytes in 14 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 63/119] 118.250.162.63 () {46 vars in 942 bytes} [Mon Feb  5 21:48:15 2018] GET /zzladmini/article/article/ => generated 5181 bytes in 26 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 32/120] 118.250.162.63 () {44 vars in 815 bytes} [Mon Feb  5 21:48:15 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 64/121] 118.250.162.63 () {46 vars in 958 bytes} [Mon Feb  5 21:48:17 2018] GET /zzladmini/article/article/add/ => generated 8018 bytes in 38 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 33/122] 118.250.162.63 () {44 vars in 819 bytes} [Mon Feb  5 21:48:17 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 65/123] 118.250.162.63 () {54 vars in 1221 bytes} [Mon Feb  5 21:49:26 2018] POST /zzladmini/article/article/add/ => generated 0 bytes in 231 msecs (HTTP/1.1 302) 8 headers in 517 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 34/124] 118.250.162.63 () {48 vars in 1205 bytes} [Mon Feb  5 21:49:26 2018] GET /zzladmini/article/article/ => generated 5605 bytes in 33 msecs (HTTP/1.1 200) 8 headers in 465 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 66/125] 118.250.162.63 () {44 vars in 815 bytes} [Mon Feb  5 21:49:26 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 35/126] 118.250.162.63 () {46 vars in 918 bytes} [Mon Feb  5 21:49:31 2018] GET /zzladmini/ => generated 7539 bytes in 28 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 67/127] 118.250.162.63 () {46 vars in 930 bytes} [Mon Feb  5 21:49:32 2018] GET /zzladmini/article/image/ => generated 3292 bytes in 42 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 36/128] 118.250.162.63 () {44 vars in 813 bytes} [Mon Feb  5 21:49:32 2018] GET /zzladmini/jsi18n/ => generated 7678 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 68/129] 118.250.162.63 () {46 vars in 916 bytes} [Mon Feb  5 21:49:39 2018] GET /zzladmini/ => generated 7539 bytes in 27 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 69/130] 118.250.162.63 () {44 vars in 851 bytes} [Mon Feb  5 22:01:54 2018] GET /zzladmini/ => generated 7539 bytes in 37 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 1365|app: 0|req: 37/131] 118.250.162.63 () {44 vars in 831 bytes} [Mon Feb  5 22:01:56 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1367|app: 0|req: 9/132] 118.250.162.63 () {46 vars in 888 bytes} [Mon Feb  5 22:02:04 2018] GET /homepage => generated 7753 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.12-debian (32bit) on [Mon Feb  5 22:02:40 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:01:56
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-52-78-ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/ubuntu/blog
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8000).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 1366|app: 0|req: 70/133] 118.250.162.63 () {48 vars in 919 bytes} [Mon Feb  5 22:02:44 2018] GET /homepage => generated 7753 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1368|app: 0|req: 10/134] 118.250.162.63 () {44 vars in 849 bytes} [Mon Feb  5 22:02:55 2018] GET /article/5 => generated 4425 bytes in 62 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 71/135] 118.250.162.63 () {46 vars in 897 bytes} [Mon Feb  5 22:03:26 2018] GET /homepage => generated 7753 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 72/136] 118.250.162.63 () {48 vars in 928 bytes} [Mon Feb  5 22:11:22 2018] GET /homepage => generated 7753 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1366|app: 0|req: 73/137] 118.250.162.63 () {46 vars in 878 bytes} [Mon Feb  5 22:14:27 2018] GET /homepage => generated 7753 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/blog
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (:8000)
+running /usr/bin/uwsgi-core
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.12-debian (32bit) on [Mon Feb  5 22:16:06 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:01:56
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-52-78-ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/ubuntu/blog
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8000 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x832b148
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 449460 bytes (438 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x832b148 pid: 1362 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1362)
+spawned uWSGI worker 1 (pid: 6663, cores: 1)
+spawned uWSGI worker 2 (pid: 6664, cores: 1)
+spawned uWSGI worker 3 (pid: 6665, cores: 1)
+spawned uWSGI worker 4 (pid: 6666, cores: 1)
+[pid: 6664|app: 0|req: 1/1] 118.250.162.63 () {46 vars in 878 bytes} [Mon Feb  5 22:16:10 2018] GET /homepage => generated 9265 bytes in 46 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.12-debian (32bit) on [Mon Feb  5 22:16:21 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:01:56
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-52-78-ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/ubuntu/blog
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.12-debian (32bit) on [Mon Feb  5 22:18:07 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:01:56
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-52-78-ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/blog
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/ubuntu/blog
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8000).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 6665|app: 0|req: 1/2] 118.250.162.63 () {46 vars in 878 bytes} [Mon Feb  5 22:21:03 2018] GET /homepage => generated 9265 bytes in 27 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 6666|app: 0|req: 1/3] 118.250.162.63 () {46 vars in 898 bytes} [Mon Feb  5 22:21:07 2018] GET /article/5 => generated 4425 bytes in 141 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 6665|app: 0|req: 2/4] 74.82.47.5 () {30 vars in 320 bytes} [Mon Feb  5 22:32:22 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+-- unavailable modifier requested: 4 --
+[pid: 6665|app: 0|req: 3/6] 110.53.212.137 () {42 vars in 710 bytes} [Tue Feb  6 07:41:32 2018] GET / => generated 1788 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 6666|app: 0|req: 2/7] 110.53.212.137 () {44 vars in 767 bytes} [Tue Feb  6 07:41:33 2018] GET /homepage => generated 9265 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 6665|app: 0|req: 4/8] 110.53.212.137 () {42 vars in 720 bytes} [Tue Feb  6 07:41:47 2018] GET /admin => generated 79 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 6665|app: 0|req: 5/9] 5.143.48.159 () {38 vars in 577 bytes} [Tue Feb  6 08:13:35 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 6666|app: 0|req: 3/10] 5.143.48.159 () {40 vars in 627 bytes} [Tue Feb  6 08:13:35 2018] GET /HNAP1/ => generated 80 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 6665|app: 0|req: 6/11] 71.6.202.204 () {34 vars in 483 bytes} [Tue Feb  6 10:36:52 2018] GET / => generated 1788 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)

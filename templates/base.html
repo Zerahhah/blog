@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<!-- 代码高亮中不能太长 否则对不齐 是因为kg-card-markdown的flex布局
-       screen.css的669行
--->
+﻿<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>article{{ articles.id }}</title>
+    <title>{{ articles.title }}</title>
     <script src="../static/js/jquery-3.2.1.min.js"></script>
     <link href="../static/css/screen.css" rel="stylesheet" type="text/css">
     <script src="../static/js/dist/syntaxhighlighter.js"></script>
@@ -24,9 +22,9 @@
                             <img src="../static/image/logo.jpg">
                         </a>
                         <ul class="nav">
-                            <li><a href="/homepage">首页</a></li>
+                            <li><a href="/homepage">首页</a></li><!--
                             <li><a href="all post">文章分类</a></li>
-                            <li><a href="#">None</a></li>
+                            <li><a href="#">None</a></li>-->
                         </ul>
                     </div>
 
@@ -40,9 +38,9 @@
                         <section class="post-full-meta">
                             <time class="post-full-meta-date">{{ articles.pub_date |date:"Y-n-d" }}/阅读({{ articles.view_count }})</time>
                         </section>
-                        <h1 class="post-full-title">单向链表实现队列 </h1>
+                        <h1 class="post-full-title">{{ articles.title }} </h1>
                     </header>
-                    <figure class="post-full-image" style="background-image: url('../static_files/image/{{ articles.img_name }}')"> </figure>
+                    <figure class="post-full-image" style="background-image: url('../static/image/{{ articles.img_name }}')"> </figure>
                     <section class="post-full-content">
                         <div class="kg-card-markdown">
                             {{ articles.body | safe }}
@@ -54,10 +52,14 @@
 
 
         <footer class="site-footer outer">
-        <div class="site-footer-content inner">
-            <section>ZZL's Blog @ xxxx</section>
-        </div>
+            <div class="site-footer-content inner">
+                <section>Zerahhah's Blog</section>
+                <nav class="site-footer-nav">
+                    <a href="http://www.miitbeian.gov.cn/">湘ICP备18002613</a>
+                </nav>
+            </div>
         </footer>
+
 
     </div>
 </body>
